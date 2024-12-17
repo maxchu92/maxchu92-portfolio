@@ -57,7 +57,7 @@ const components: { title: string; href: string; description: string }[] = [
 
 export default function AppHeader() {
   return (
-    <div className="border-b p-4 w-screen">
+    <div className="border-b p-4">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center gap-4">
           <h1>maxchu92 | portfolio</h1>
