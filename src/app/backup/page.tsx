@@ -1,5 +1,4 @@
 import AppHeader from '@/components/app-header';
-import { ThemeModeMenu } from '@/components/theme-mode-menu';
 import Image from 'next/image';
 
 export default function Home() {

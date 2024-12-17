@@ -1,9 +1,7 @@
 import AppFooter from '@/components/app-footer';
 import AppHeader from '@/components/app-header';
-import Education from '@/components/educations';
-import { ThemeModeMenu } from '@/components/theme-mode-menu';
 import { AspectRatio } from '@/components/ui/aspect-ratio';
-import { ArrowRight, GraduationCap, Star } from 'lucide-react';
+import { GraduationCap, Star } from 'lucide-react';
 import Image from 'next/image';
 
 const educations = [
@@ -139,7 +137,8 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-muted md:col-span-1 lg:col-span-1">
                 <AspectRatio ratio={1 / 1} className="bg-muted">
-                  <img
+                  <Image
+                    fill={true}
                     src="/images/profile_pic.jpg"
                     alt="Profile Picture"
                     className="h-full w-full rounded-md object-cover"
