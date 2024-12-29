@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss';
+const plugin = require('tailwindcss/plugin');
 
 export default {
   darkMode: ['class'],
@@ -72,7 +73,11 @@ export default {
   },
   plugins: [
     require('tailwindcss-animate'),
-    function ({ addComponents }) {
+    function ({
+      addComponents,
+    }: {
+      addComponents: (components: Record<string, any>) => void;
+    }) {
       addComponents({
         '.container': {
           maxWidth: '100%',
