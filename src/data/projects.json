@@ -18,8 +18,8 @@
       "msSqlServer",
       "redgateSqlCompare",
       "redgateSqlDataCompare",
-      "shopeeIntegration",
-      "lazadaIntegration",
+      "shopeeApi",
+      "lazadaApi",
       "adobeXd"
     ]
   }

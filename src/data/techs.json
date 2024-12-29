@@ -3,6 +3,10 @@
     "icon": "icons/vb-dot-net.png",
     "name": "VB.NET"
   },
+  "cSharp": {
+    "icon": "icons/c-sharp.png",
+    "name": "C#"
+  },
   "devExpress": {
     "icon": "icons/devexpress.png",
     "name": "DevExpress WinForm"
@@ -19,17 +23,21 @@
     "icon": "icons/redgate.png",
     "name": "Redgate SQL Data Compare"
   },
-  "shopeeIntegration": {
+  "shopeeApi": {
     "icon": "icons/shopee.png",
-    "name": "Shopee Integration"
+    "name": "Shopee API"
   },
-  "lazadaIntegration": {
+  "lazadaApi": {
     "icon": "icons/lazada.png",
-    "name": "Lazada Integration"
+    "name": "Lazada API"
   },
   "adobeXd": {
-    "icon": "icons/adobe-xd.png",
+    "icon": "icons/adobe-xd.svg",
     "name": "Adobe XD"
+  },
+  "penpot": {
+    "icon": "icons/penpot.svg",
+    "name": "Penpot"
   },
   "reactJs": {
     "icon": "/icons/react-js.svg",
@@ -46,10 +54,6 @@
   "shadcn": {
     "icon": "/icons/shadcn-ui.svg",
     "name": "shadcn/ui"
-  },
-  "radixUi": {
-    "icon": "/icons/radix-ui.svg",
-    "name": "Radix UI"
   },
   "vercel": {
     "icon": "/icons/vercel.svg",

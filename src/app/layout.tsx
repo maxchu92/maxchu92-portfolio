@@ -1,6 +1,6 @@
+import './globals.css';
 import type { Metadata } from 'next';
 import { Poppins } from 'next/font/google';
-import './globals.css';
 import { ThemeProvider } from '@/components/theme-provider';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 
@@ -9,7 +9,7 @@ const poppins = Poppins({
   weight: ['400', '500', '600', '700'],
 });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: {
     template: '%s | Max Chu - Full Stack Developer | Portfolio',
     default: 'Max Chu - Full Stack Developer | Portfolio',
@@ -18,7 +18,7 @@ export const metadata = {
     "Explore Max Chu's portfolio showcasing expertise in software development, React, Next.js, and innovative web solutions. Let's build something amazing!",
   keywords: [
     'Max Chu',
-    'software developer',
+    'full-stack developer',
     'portfolio',
     'React.js',
     'Next.js',
@@ -35,9 +35,12 @@ export const metadata = {
     index: true,
     follow: true,
   },
-  themeColor: '#a4373a', // Replace with your UI accent color
+  themeColor: [
+    { media: '(prefers-color-scheme: dark)', color: '#000000' },
+    { media: '(prefers-color-scheme: light)', color: '#ffffff' },
+  ],
   openGraph: {
-    title: 'Max Chu - Software Developer Portfolio',
+    title: 'Max Chu - Full-stack Developer Portfolio',
     description:
       "Dive into Max Chu's world of web development, featuring cutting-edge projects in React, Next.js, and more.",
     url: 'https://your-portfolio-url.com', // Replace with your domain
@@ -55,7 +58,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Max Chu - Software Developer Portfolio',
+    title: 'Max Chu - Full-stack Developer Portfolio',
     description:
       "Check out Max Chu's portfolio for impressive web development projects in React and Next.js.",
     images: [
