@@ -1,5 +1,10 @@
 import AppHeader from '@/components/app-header';
+import { Metadata } from 'next';
 import Image from 'next/image';
+
+export const metadata: Metadata = {
+  title: 'Next.js',
+};
 
 export default function Home() {
   return (

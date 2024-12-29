@@ -1,0 +1,20 @@
+{
+  "projectManagement": {
+    "name": "Project Management"
+  },
+  "projectScoping": {
+    "name": "Project Scoping"
+  },
+  "uiUxDesign": {
+    "name": "UI/UX Design"
+  },
+  "frontEndDev": {
+    "name": "Front-End Development"
+  },
+  "backEndDev": {
+    "name": "Back-End development"
+  },
+  "coreDev": {
+    "name": "Core Development"
+  }
+}

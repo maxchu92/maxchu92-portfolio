@@ -2,29 +2,20 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Next.js: debug server-side",
-      "type": "node-terminal",
+      "name": "Debug Next.js with Turbopack",
+      "type": "node",
       "request": "launch",
-      "command": "pnpm dev"
-    },
-    {
-      "name": "Next.js: debug client-side",
-      "type": "msedge",
-      "request": "launch",
-      "url": "http://localhost:3000/"
-    },
-    {
-      "name": "Next.js: debug full stack",
-      "type": "node-terminal",
-      "request": "launch",
-      "command": "pnpm dev",
-      "serverReadyAction": {
-        "action": "debugWithEdge",
-        "killOnServerStop": true,
-        "pattern": "- Local:.+(https?://.+)",
-        "uriFormat": "%s",
-        "webRoot": "${workspaceFolder}"
-      }
+      "program": "${workspaceFolder}/node_modules/next/dist/bin/next",
+      "args": ["dev", "--turbo"],
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "node",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "console": "integratedTerminal",
+      "sourceMaps": true,
+      "outFiles": ["${workspaceFolder}/.next/**/*.js"],
+      "preLaunchTask": "open-tab-in-edge"
     }
   ]
 }

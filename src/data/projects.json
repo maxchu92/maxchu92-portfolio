@@ -1,0 +1,26 @@
+[
+  {
+    "name": "AutoPowerSuite",
+    "description": "Automobile Parts Sales and Inventory Management System",
+    "yearFrom": "2014",
+    "yearTo": "2024",
+    "responsibilities": [
+      "projectManagement",
+      "projectScoping",
+      "uiUxDesign",
+      "frontEndDev",
+      "backEndDev",
+      "coreDev"
+    ],
+    "techUsed": [
+      "vbDotNet",
+      "devExpress",
+      "msSqlServer",
+      "redgateSqlCompare",
+      "redgateSqlDataCompare",
+      "shopeeIntegration",
+      "lazadaIntegration",
+      "adobeXd"
+    ]
+  }
+]

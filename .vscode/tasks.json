@@ -1,0 +1,11 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "open-tab-in-edge",
+      "type": "shell",
+      "command": "start msedge http://localhost:3000",
+      "problemMatcher": []
+    }
+  ]
+}

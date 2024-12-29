@@ -1,0 +1,62 @@
+{
+  "vbDotNet": {
+    "icon": "icons/vb-dot-net.png",
+    "name": "VB.NET"
+  },
+  "devExpress": {
+    "icon": "icons/devexpress.png",
+    "name": "DevExpress WinForm"
+  },
+  "msSqlServer": {
+    "icon": "icons/ms-sql-server.png",
+    "name": "Microsoft SQL Server"
+  },
+  "redgateSqlCompare": {
+    "icon": "icons/redgate.png",
+    "name": "Redgate SQL Compare"
+  },
+  "redgateSqlDataCompare": {
+    "icon": "icons/redgate.png",
+    "name": "Redgate SQL Data Compare"
+  },
+  "shopeeIntegration": {
+    "icon": "icons/shopee.png",
+    "name": "Shopee Integration"
+  },
+  "lazadaIntegration": {
+    "icon": "icons/lazada.png",
+    "name": "Lazada Integration"
+  },
+  "adobeXd": {
+    "icon": "icons/adobe-xd.png",
+    "name": "Adobe XD"
+  },
+  "reactJs": {
+    "icon": "/icons/react-js.svg",
+    "name": "React.js"
+  },
+  "nextJs": {
+    "icon": "/icons/next-js.svg",
+    "name": "Next.js"
+  },
+  "tailwindCss": {
+    "icon": "/icons/tailwind.svg",
+    "name": "tailwindcss"
+  },
+  "shadcn": {
+    "icon": "/icons/shadcn-ui.svg",
+    "name": "shadcn/ui"
+  },
+  "radixUi": {
+    "icon": "/icons/radix-ui.svg",
+    "name": "Radix UI"
+  },
+  "vercel": {
+    "icon": "/icons/vercel.svg",
+    "name": "Vercel"
+  },
+  "github": {
+    "icon": "/icons/github.svg",
+    "name": "Github"
+  }
+}
