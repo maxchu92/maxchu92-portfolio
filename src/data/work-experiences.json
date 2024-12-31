@@ -1,10 +1,10 @@
 [
   {
     "company": "Meteorsoft Sdn. Bhd.",
-    "yearFrom": "2014",
-    "yearTo": "2015",
-    "position": "Junior Developer",
-    "description": "Gained foundational experience in developing web and mobile applications. Worked with VB.Net and WinForm, C# and WPF, contributing to various projects under the guidance of senior developers. Assisted in managing Microsoft SQL Server databases."
+    "yearFrom": "2017",
+    "yearTo": "Present",
+    "position": "Head of R&D",
+    "description": "Led a team of developers in creating cutting-edge web and mobile applications. Spearheaded the adoption of new technologies and frameworks to improve development efficiency. Oversaw project management, ensuring timely delivery of high-quality software solutions."
   },
   {
     "company": "Meteorsoft Sdn. Bhd.",
@@ -15,9 +15,9 @@
   },
   {
     "company": "Meteorsoft Sdn. Bhd.",
-    "yearFrom": "2017",
-    "yearTo": "Present",
-    "position": "Head of R&D",
-    "description": "Led a team of developers in creating cutting-edge web and mobile applications. Spearheaded the adoption of new technologies and frameworks to improve development efficiency. Oversaw project management, ensuring timely delivery of high-quality software solutions."
+    "yearFrom": "2014",
+    "yearTo": "2015",
+    "position": "Junior Developer",
+    "description": "Gained foundational experience in developing web and mobile applications. Worked with VB.Net and WinForm, C# and WPF, contributing to various projects under the guidance of senior developers. Assisted in managing Microsoft SQL Server databases."
   }
 ]

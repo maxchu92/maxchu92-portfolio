@@ -1,14 +1,14 @@
 [
   {
-    "year": 2012,
-    "university": "Asia Pacific University",
-    "cert": "Diploma of IT specialized in Software Engineering",
-    "description": "I gained foundational skills in software development, programming, and system design, as well as developed key skills in problem-solving, algorithm design, and coding practices through various hands-on projects."
-  },
-  {
     "year": 2014,
     "university": "Asia Pacific University",
     "cert": "Bachelor of Science in Information System Security",
     "description": "Focusing on cybersecurity, cryptography, and protecting network infrastructures, this education equipped me with the expertise to safeguard systems and manage vulnerabilities, complementing my technical development skills."
+  },
+  {
+    "year": 2012,
+    "university": "Asia Pacific University",
+    "cert": "Diploma of IT specialized in Software Engineering",
+    "description": "I gained foundational skills in software development, programming, and system design, as well as developed key skills in problem-solving, algorithm design, and coding practices through various hands-on projects."
   }
 ]
