@@ -1,23 +1,17 @@
 'use client';
 
 import * as React from 'react';
-import Link from 'next/link';
 
 import { cn } from '@/lib/utils';
-import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-  navigationMenuTriggerStyle,
-} from '@/components/ui/navigation-menu';
-import { PiIcon } from 'lucide-react';
+import { NavigationMenuLink } from '@/components/ui/navigation-menu';
 import { ThemeModeMenu } from './theme-mode-menu';
 import AppDrawer from './app-drawer';
 
-const components: { title: string; href: string; description: string }[] = [
+export const components: {
+  title: string;
+  href: string;
+  description: string;
+}[] = [
   {
     title: 'Alert Dialog',
     href: '/docs/primitives/alert-dialog',
@@ -62,7 +56,7 @@ export default function AppHeader() {
         <div className="container mx-auto p-4 flex justify-between items-center">
           <div className="flex items-center gap-4">
             <h1>maxchu92 | portfolio</h1>
-            <NavigationMenu className="hidden md:block">
+            {/* <NavigationMenu className="hidden md:block">
               <NavigationMenuList>
                 <NavigationMenuItem>
                   <NavigationMenuTrigger>Getting started</NavigationMenuTrigger>
@@ -127,7 +121,7 @@ export default function AppHeader() {
                   </Link>
                 </NavigationMenuItem>
               </NavigationMenuList>
-            </NavigationMenu>
+            </NavigationMenu> */}
           </div>
           <AppDrawer className="md:hidden" />
           <ThemeModeMenu className="hidden md:block" />

@@ -2,8 +2,10 @@ import SectionHeader from '@/components/section-header';
 import personalSkills from '@/data/personal-skills.json';
 import experiences from '@/data/experiences.json';
 import techs from '@/data/techs.json';
-import { Star, Stars } from 'lucide-react';
+import { Star } from 'lucide-react';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
+import RoleBadge from '@/components/role-badge';
+import TechBadge from '@/components/tech-badge';
 
 type ExperienceType = keyof typeof experiences;
 const responsibilities: string[] = Object.keys(experiences);
@@ -15,6 +17,32 @@ export default function PersonalSkillsSection() {
   return (
     <div>
       <SectionHeader title="Personal Skills" />
+
+      {/* ROLES */}
+      <div className="container mx-auto py-8 px-4 max-w-4xl">
+        <h3 className="text-xl text-center mb-4">
+          Roles i have been in before
+        </h3>
+        <div className="flex flex-wrap justify-center gap-4">
+          {responsibilities.map((res, i) => (
+            <RoleBadge key={i} name={experiences[res as ExperienceType].name} />
+          ))}
+        </div>
+      </div>
+
+      {/* TECH SKILLS */}
+      <div className="container mx-auto py-8 px-4 max-w-5xl">
+        <h3 className="text-xl text-center mb-4">
+          Experience with various languages, frameworks and APIs
+        </h3>
+        <div className="flex flex-wrap justify-center gap-4">
+          {techUsed.map((tu, i) => (
+            <TechBadge key={`tu_${i}`} name={techs[tu as TechType].name} />
+          ))}
+        </div>
+      </div>
+
+      {/* PERSONAL SKILLS */}
       <div className="container mx-auto max-w-4xl py-8 px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {personalSkills.map((ps, i) => (
@@ -40,39 +68,6 @@ export default function PersonalSkillsSection() {
                 </div>
               </CardContent>
             </Card>
-          ))}
-        </div>
-      </div>
-
-      <div className="container mx-auto py-8 px-4 max-w-4xl">
-        <h3 className="text-xl text-center mb-4">
-          Roles i have been in before
-        </h3>
-        <div className="flex flex-wrap justify-center gap-4">
-          {responsibilities.map((res, i) => (
-            <div
-              key={`res_${i}`}
-              className="rounded-full bg-foreground text-background px-4 py-2 text-sm"
-            >
-              {experiences[res as ExperienceType].name}
-            </div>
-          ))}
-        </div>
-      </div>
-
-      <div className="container mx-auto py-8 px-4 max-w-5xl">
-        <h3 className="text-xl text-center mb-4">
-          Experience with various frameworks and APIs
-        </h3>
-        <div className="flex flex-wrap justify-center gap-4">
-          {techUsed.map((tu, i) => (
-            <div
-              key={`tu_${i}`}
-              className="rounded-full bg-foreground text-background px-4 py-2 text-sm flex gap-2 items-center"
-            >
-              <Stars />
-              {techs[tu as TechType].name}
-            </div>
           ))}
         </div>
       </div>

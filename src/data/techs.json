@@ -1,66 +1,191 @@
 {
+  "dart": {
+    "icon": "icons/dart.png",
+    "name": "Dart"
+  },
   "vbDotNet": {
-    "icon": "icons/vb-dot-net.png",
+    "icon": "icons/vbDotNet.png",
     "name": "VB.NET"
   },
   "cSharp": {
-    "icon": "icons/c-sharp.png",
+    "icon": "icons/cSharp.png",
     "name": "C#"
   },
-  "devExpress": {
-    "icon": "icons/devexpress.png",
-    "name": "DevExpress WinForm"
-  },
-  "msSqlServer": {
-    "icon": "icons/ms-sql-server.png",
-    "name": "Microsoft SQL Server"
-  },
-  "redgateSqlCompare": {
-    "icon": "icons/redgate.png",
-    "name": "Redgate SQL Compare"
-  },
-  "redgateSqlDataCompare": {
-    "icon": "icons/redgate.png",
-    "name": "Redgate SQL Data Compare"
-  },
-  "shopeeApi": {
-    "icon": "icons/shopee.png",
-    "name": "Shopee API"
-  },
-  "lazadaApi": {
-    "icon": "icons/lazada.png",
-    "name": "Lazada API"
-  },
-  "adobeXd": {
-    "icon": "icons/adobe-xd.svg",
-    "name": "Adobe XD"
-  },
-  "penpot": {
-    "icon": "icons/penpot.svg",
-    "name": "Penpot"
-  },
   "reactJs": {
-    "icon": "/icons/react-js.svg",
+    "icon": "icons/reactJs.svg",
     "name": "React.js"
   },
   "nextJs": {
-    "icon": "/icons/next-js.svg",
+    "icon": "icons/nextJs.svg",
     "name": "Next.js"
   },
-  "tailwindCss": {
-    "icon": "/icons/tailwind.svg",
-    "name": "tailwindcss"
+  "typescript": {
+    "icon": "icons/typescript.svg",
+    "name": "TypeScript"
   },
-  "shadcn": {
-    "icon": "/icons/shadcn-ui.svg",
+  "shadcnUi": {
+    "icon": "icons/shadcnUi.svg",
     "name": "shadcn/ui"
   },
+  "tailwindCss": {
+    "icon": "icons/tailwindCss.svg",
+    "name": "tailwindcss"
+  },
+  "bootstrap": {
+    "icon": "icons/bootstrap.png",
+    "name": "Bootstrap"
+  },
+  "devExtremeJs": {
+    "icon": "icons/devExtremeJs.png",
+    "name": "DevExtreme JS"
+  },
+
+  "aspDotNet": {
+    "icon": "icons/aspDotNet.png",
+    "name": "ASP.NET"
+  },
+  "aspDotNetCore": {
+    "icon": "icons/aspDotNetCore.png",
+    "name": "ASP.NET Core"
+  },
+  "css": {
+    "icon": "icons/css.png",
+    "name": "CSS"
+  },
+  "javascript": {
+    "icon": "icons/javascript.png",
+    "name": "Javascript"
+  },
+  "jQuery": {
+    "icon": "icons/jQuery.png",
+    "name": "jQuery"
+  },
+  "html": {
+    "icon": "icons/html.png",
+    "name": "HTML"
+  },
+  "flutter": {
+    "icon": "icons/flutter.png",
+    "name": "Flutter"
+  },
+  "xamarin": {
+    "icon": "icons/xamarin.png",
+    "name": "Xamarin"
+  },
+  "dotNetMaui": {
+    "icon": "icons/dotNetMaui.png",
+    "name": ".NET MAUI"
+  },
+  "telerikUi": {
+    "icon": "icons/telerikUi.png",
+    "name": "Telerik UI"
+  },
+  "winforms": {
+    "icon": "icons/winforms.png",
+    "name": "Windows Form .NET"
+  },
+  "wpf": {
+    "icon": "icons/wpf.png",
+    "name": "Windows Presentation Foundation"
+  },
+  "devExpressWinForms": {
+    "icon": "icons/devExpressWinForms.png",
+    "name": "DevExpress WinForm UI"
+  },
+  "lazadaApi": {
+    "icon": "icons/lazadaApi.png",
+    "name": "Lazada API"
+  },
+  "shopeeApi": {
+    "icon": "icons/shopeeApi.png",
+    "name": "Shopee API"
+  },
+  "shopifyApi": {
+    "icon": "icons/shopifyApi.png",
+    "name": "Shopify API"
+  },
+  "googleFirebase": {
+    "icon": "icons/googleFirebase.png",
+    "name": "Google Firebase"
+  },
+  "iPay88": {
+    "icon": "icons/iPay88.png",
+    "name": "iPay88 Payment Gateway"
+  },
+  "eGhl": {
+    "icon": "icons/eGhl.png",
+    "name": "eGHL Payment Gateway"
+  },
+  "apsIntegration": {
+    "icon": "icons/apsIntegration.png",
+    "name": "APS Integration"
+  },
+  "figma": {
+    "icon": "icons/figma.png",
+    "name": "Figma"
+  },
+  "penpot": {
+    "icon": "icons/penpot.png",
+    "name": "Penpot"
+  },
+  "adobeXd": {
+    "icon": "icons/adobeXd.svg",
+    "name": "Adobe XD"
+  },
+  "adobePhotoshop": {
+    "icon": "icons/adobePhotoshop.png",
+    "name": "Adobe Photoshop"
+  },
+  "adobeLightroom": {
+    "icon": "icons/adobeLightroom.png",
+    "name": "Adobe Lightroom"
+  },
+  "msSqlServer": {
+    "icon": "icons/msSqlServer.png",
+    "name": "Microsoft SQL Server"
+  },
+  "sqLite": {
+    "icon": "icons/sqLite.png",
+    "name": "SQLite"
+  },
+  "awsRds": {
+    "icon": "icons/awsRds.png",
+    "name": "Amazon RDS"
+  },
+  "redgateToolbelt": {
+    "icon": "icons/redgateToolbelt.png",
+    "name": "redgateToolbelt"
+  },
+  "awsVpc": {
+    "icon": "icons/awsVpc.png",
+    "name": "Amazon VPC"
+  },
+  "vsAppCenter": {
+    "icon": "icons/vsAppCenter.png",
+    "name": "Visual Studio App Center"
+  },
+  "azureDevOps": {
+    "icon": "icons/azureDevOps.png",
+    "name": "Azure DevOps Server"
+  },
+  "iis": {
+    "icon": "icons/iis.png",
+    "name": "Microsoft Internet Information Services"
+  },
   "vercel": {
-    "icon": "/icons/vercel.svg",
+    "icon": "icons/vercel.svg",
     "name": "Vercel"
   },
+  "awsEc2": {
+    "icon": "icons/awsEc2.png",
+    "name": "Amazon EC2"
+  },
+  "xampp": {
+    "icon": "icons/xampp.png",
+    "name": "XAMPP"
+  },
   "github": {
-    "icon": "/icons/github.svg",
-    "name": "Github"
+    "icon": "icons/github.svg",
+    "name": "GitHub"
   }
 }

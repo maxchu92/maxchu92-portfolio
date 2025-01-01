@@ -3,6 +3,8 @@
 import { useState } from 'react';
 import techs from '@/data/techs.json';
 import builtWith from '@/data/built-with.json';
+import { AspectRatio } from '@radix-ui/react-aspect-ratio';
+import Image from 'next/image';
 
 export default function BuiltWithSection() {
   const [tech, setTech] = useState<string>('passion');
@@ -40,13 +42,14 @@ export default function BuiltWithSection() {
               onMouseLeave={onMouseLeave_tech}
             >
               <div className="h-16 w-16 rounded-md border border-transparent hover:border-foreground transition-all duration-300 opacity-75 hover:opacity-100 flex justify-center items-center">
-                <img
-                  className="dark:invert"
-                  src={techs[bw as TechType].icon}
-                  alt={techs[bw as TechType].name}
-                  width={45}
-                  height={45}
-                />
+                <AspectRatio ratio={1}>
+                  <Image
+                    fill={true}
+                    className="dark:invert"
+                    src={techs[bw as TechType].icon}
+                    alt={techs[bw as TechType].name}
+                  />
+                </AspectRatio>
               </div>
             </div>
           ))}

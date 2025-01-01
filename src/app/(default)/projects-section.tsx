@@ -1,8 +1,12 @@
-import { Fragment } from 'react';
 import projects from '@/data/projects.json';
 import experiences from '@/data/experiences.json';
 import techs from '@/data/techs.json';
 import SectionHeader from '@/components/section-header';
+import RoleBadge from '@/components/role-badge';
+import TechBadge from '@/components/tech-badge';
+import { AspectRatio } from '@radix-ui/react-aspect-ratio';
+import Image from 'next/image';
+import clsx from 'clsx';
 
 type ExperienceType = keyof typeof experiences;
 type TechType = keyof typeof techs;
@@ -11,41 +15,69 @@ export default function ProjectsSection() {
   return (
     <div>
       <SectionHeader title="Projects" />
-      <div className="container mx-auto py-8 px-4">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {projects.map((proj, i) => (
-            <div key={`proj_${i}`} className="flex flex-col gap-6">
-              <div className="flex flex-col gap-4">
-                <div className="flex gap-4 justify-between items-center">
-                  <p className="text-sm">{proj.name}</p>
-                  <p className="text-sm">{proj.description}</p>
-                  {/* <ArrowRight /> */}
-                  <p>
-                    {proj.yearFrom}&nbsp;-&nbsp;{proj.yearTo}
-                  </p>
-                </div>
-                <ul>
-                  {proj.responsibilities.map((res, i) => (
-                    <div key={`res_${i}`}>
-                      {experiences[res as ExperienceType].name}
-                    </div>
-                  ))}
-                </ul>
-                <ul>
-                  {proj.techUsed.map((tu, i) => (
-                    <Fragment key={`tu_${i}`}>
-                      {/*  <div>{techs[tu as TechType].icon}</div> */}
-                      <div>{techs[tu as TechType].name}</div>
-                    </Fragment>
-                  ))}
-                </ul>
-                {/* <h3 className="text-2xl font-semibold">{proj.}</h3> */}
+      {projects.map((proj, i) => (
+        <div key={`proj_${i}`} className="container mx-auto px-4 py-10">
+          <div className="py-4">
+            {/* HEADER */}
+            <div className="flex flex-col md:flex-row md:gap-8 md:items-center mb-4">
+              <h3 className="text-5xl md:text-7xl mb-4 md:mb-8">
+                Project&nbsp;{(i + 1).toString().padStart(2, '0')}
+              </h3>
+              <div className="mb-4 md:mb-8">
+                <h4 className="text-xl">
+                  <span className="mr-2 text-primary">{proj.name}</span>
+                  <small>
+                    {proj.yearFrom}-{proj.yearTo}
+                  </small>
+                </h4>
+                <p className="text-sm">{proj.description}</p>
               </div>
-              <p>{proj.description}</p>
             </div>
-          ))}
+
+            {/* DETAILS */}
+            <div className="grid lg:grid-cols-2 gap-8">
+              {/* INFO */}
+              <div className={clsx(i % 2 === 1 ? 'lg:order-1' : '')}>
+                <div>
+                  <h5 className="mb-2">Responsibilities:</h5>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    {proj.responsibilities.map((res, i) => (
+                      <RoleBadge
+                        key={`res_${i}`}
+                        name={experiences[res as ExperienceType].name}
+                      />
+                    ))}
+                  </div>
+                </div>
+                <div>
+                  <h5 className="mb-2">Tech used:</h5>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    {proj.techUsed.map((tu, i) => (
+                      <TechBadge
+                        key={`tu_${i}`}
+                        icon={techs[tu as TechType].icon}
+                        name={techs[tu as TechType].name}
+                      />
+                    ))}
+                  </div>
+                </div>
+              </div>
+              {/* PREVIEW */}
+              <AspectRatio
+                ratio={16 / 9}
+                className={clsx('bg-muted', i % 2 === 1 ? 'lg:order-1' : '')}
+              >
+                <Image
+                  fill={true}
+                  src={proj.preview}
+                  alt={`Preview of ${proj.name}`}
+                  className="h-full w-full rounded-md object-cover"
+                />
+              </AspectRatio>
+            </div>
+          </div>
         </div>
-      </div>
+      ))}
     </div>
   );
 }

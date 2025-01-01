@@ -4,6 +4,7 @@
     "description": "Automobile Parts Sales and Inventory Management System",
     "yearFrom": "2014",
     "yearTo": "2024",
+    "preview": "/images/projects/aps.png",
     "responsibilities": [
       "projectManagement",
       "projectScoping",
@@ -14,13 +15,30 @@
     ],
     "techUsed": [
       "vbDotNet",
-      "devExpress",
+      "devExpressWinForms",
       "msSqlServer",
-      "redgateSqlCompare",
-      "redgateSqlDataCompare",
+      "redgateToolbelt",
       "shopeeApi",
       "lazadaApi",
       "adobeXd"
+    ]
+  },
+  {
+    "name": "Eu Yan Sang Malaysia",
+    "description": "E-commerce website & Back-Office website",
+    "yearFrom": "2014",
+    "yearTo": "2016",
+    "preview": "/images/projects/eys.png",
+    "responsibilities": ["frontEndDev", "backEndDev"],
+    "techUsed": [
+      "vbDotNet",
+      "aspDotNet",
+      "msSqlServer",
+      "html",
+      "css",
+      "javascript",
+      "jQuery",
+      "iPay88"
     ]
   }
 ]
