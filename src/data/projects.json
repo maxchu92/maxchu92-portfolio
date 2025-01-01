@@ -6,8 +6,8 @@
     "yearTo": "2024",
     "preview": "/images/projects/aps.png",
     "responsibilities": [
+      "projectAnalysisAndDesign",
       "projectManagement",
-      "projectScoping",
       "uiUxDesign",
       "frontEndDev",
       "backEndDev",
@@ -39,6 +39,413 @@
       "javascript",
       "jQuery",
       "iPay88"
+    ]
+  },
+  {
+    "name": "Meteor eTravel",
+    "description": "Travel Agency E-commerce Website & Back-Office Website",
+    "yearFrom": "2016",
+    "yearTo": "2018",
+    "preview": "/images/projects/travel.png",
+    "responsibilities": [
+      "projectAnalysisAndDesign",
+      "projectManagement",
+      "uiUxDesign",
+      "frontEndDev",
+      "backEndDev",
+      "coreDev"
+    ],
+    "techUsed": [
+      "vbDotNet",
+      "aspDotNet",
+      "html",
+      "css",
+      "bootstrap",
+      "javascript",
+      "jQuery",
+      "msSqlServer",
+      "redgateToolbelt",
+      "eGhl",
+      "adobeXd"
+    ]
+  },
+  {
+    "name": "COS (Tupperware Malaysia)",
+    "description": "Campaign Order and Return Order Management Website",
+    "yearFrom": "2019",
+    "yearTo": "2024",
+    "preview": "/images/projects/cos.png",
+    "responsibilities": [
+      "projectAnalysisAndDesign",
+      "projectManagement",
+      "uiUxDesign",
+      "frontEndDev",
+      "backEndDev",
+      "coreDev"
+    ],
+    "techUsed": [
+      "cSharp",
+      "aspDotNetCore",
+      "html",
+      "css",
+      "bootstrap",
+      "javascript",
+      "jQuery",
+      "devExtremeJs",
+      "msSqlServer",
+      "redgateToolbelt",
+      "adobeXd"
+    ]
+  },
+  {
+    "name": "WCS (Tupperware Malaysia)",
+    "description": "Warranty Claim Website and Back-office Website",
+    "yearFrom": "2019",
+    "yearTo": "2024",
+    "preview": "/images/projects/wcs.png",
+    "responsibilities": [
+      "projectAnalysisAndDesign",
+      "projectManagement",
+      "uiUxDesign",
+      "frontEndDev",
+      "backEndDev",
+      "coreDev"
+    ],
+    "techUsed": [
+      "cSharp",
+      "aspDotNetCore",
+      "html",
+      "css",
+      "bootstrap",
+      "javascript",
+      "jQuery",
+      "devExtremeJs",
+      "msSqlServer",
+      "redgateToolbelt",
+      "adobeXd"
+    ]
+  },
+  {
+    "name": "TuppPassport (Tupperware MY & SG)",
+    "description": "Consultant Recruit and Enrollment Portal and Management Web",
+    "yearFrom": "2020",
+    "yearTo": "2024",
+    "preview": "/images/projects/tuppPassport.png",
+    "responsibilities": [
+      "projectAnalysisAndDesign",
+      "projectManagement",
+      "uiUxDesign",
+      "frontEndDev",
+      "backEndDev",
+      "coreDev"
+    ],
+    "techUsed": [
+      "cSharp",
+      "aspDotNetCore",
+      "html",
+      "css",
+      "bootstrap",
+      "javascript",
+      "jQuery",
+      "devExtremeJs",
+      "msSqlServer",
+      "redgateToolbelt",
+      "adobeXd",
+      "shopifyApi"
+    ]
+  },
+  {
+    "name": "APS Mobile",
+    "description": "Automobile Parts Sales and Inventory Management App for APS",
+    "yearFrom": "2015",
+    "yearTo": "2024",
+    "preview": "/images/projects/apsMobile.png",
+    "responsibilities": [
+      "projectAnalysisAndDesign",
+      "projectManagement",
+      "uiUxDesign",
+      "frontEndDev",
+      "backEndDev",
+      "coreDev"
+    ],
+    "techUsed": [
+      "cSharp",
+      "xamarin",
+      "telerikUi",
+      "aspDotNetCore",
+      "msSqlServer",
+      "redgateToolbelt",
+      "vsAppCenter",
+      "googleFirebase",
+      "apsIntegration",
+      "adobeXd"
+    ]
+  },
+  {
+    "name": "MeteorNet",
+    "description": "Employee Management System",
+    "yearFrom": "2017",
+    "yearTo": "2018",
+    "preview": "/images/projects/meteorNet.png",
+    "responsibilities": [
+      "projectAnalysisAndDesign",
+      "projectManagement",
+      "uiUxDesign",
+      "frontEndDev",
+      "backEndDev",
+      "coreDev"
+    ],
+    "techUsed": [
+      "cSharp",
+      "aspDotNetCore",
+      "html",
+      "css",
+      "bootstrap",
+      "javascript",
+      "jQuery",
+      "devExtremeJs",
+      "msSqlServer",
+      "redgateToolbelt",
+      "adobeXd"
+    ]
+  },
+  {
+    "name": "APS Warehouse Helper",
+    "description": "Warehouse management mobile app for APS",
+    "yearFrom": "2018",
+    "yearTo": "2023",
+    "preview": "/images/projects/awh.png",
+    "responsibilities": [
+      "projectAnalysisAndDesign",
+      "projectManagement",
+      "uiUxDesign",
+      "frontEndDev",
+      "backEndDev",
+      "coreDev"
+    ],
+    "techUsed": [
+      "cSharp",
+      "dotNetMaui",
+      "aspDotNetCore",
+      "msSqlServer",
+      "redgateToolbelt",
+      "vsAppCenter",
+      "apsIntegration",
+      "adobeXd"
+    ]
+  },
+  {
+    "name": "APS Dispatch",
+    "description": "Logistic management mobile app for APS",
+    "yearFrom": "2020",
+    "yearTo": "2024",
+    "preview": "/images/projects/apsDispatch.png",
+    "responsibilities": [
+      "projectAnalysisAndDesign",
+      "frontEndDev",
+      "backEndDev",
+      "coreDev"
+    ],
+    "techUsed": [
+      "cSharp",
+      "dotNetMaui",
+      "aspDotNetCore",
+      "msSqlServer",
+      "redgateToolbelt",
+      "vsAppCenter",
+      "googleFirebase",
+      "apsIntegration",
+      "adobeXd"
+    ]
+  },
+  {
+    "name": "APS POS",
+    "description": "Front counter POS System for Retails",
+    "yearFrom": "2021",
+    "yearTo": "2022",
+    "preview": "/images/projects/apsPos.png",
+    "responsibilities": [
+      "projectAnalysisAndDesign",
+      "projectManagement",
+      "uiUxDesign"
+    ],
+    "techUsed": ["adobeXd"]
+  },
+  {
+    "name": "APS Cash Register",
+    "description": "Cash Register App for Retails",
+    "yearFrom": "2022",
+    "yearTo": "2023",
+    "preview": "/images/projects/apsCashRegister.png",
+    "responsibilities": [
+      "projectAnalysisAndDesign",
+      "projectManagement",
+      "uiUxDesign"
+    ],
+    "techUsed": ["adobeXd"]
+  },
+  {
+    "name": "LalaParts",
+    "description": "Automobile eCommerce Website",
+    "yearFrom": "2022",
+    "yearTo": "2023",
+    "preview": "/images/projects/lalaparts.png",
+    "responsibilities": [
+      "projectAnalysisAndDesign",
+      "projectManagement",
+      "frontEndDev",
+      "backEndDev",
+      "coreDev"
+    ],
+    "techUsed": [
+      "cSharp",
+      "dotNetMaui",
+      "aspDotNetCore",
+      "msSqlServer",
+      "redgateToolbelt",
+      "vsAppCenter",
+      "apsIntegration",
+      "figma"
+    ]
+  },
+  {
+    "name": "Seng Li Order Management",
+    "description": "Seng Li Supplier Order and Quotation Management App",
+    "yearFrom": "2021",
+    "yearTo": "2022",
+    "preview": "/images/projects/slom.png",
+    "responsibilities": [
+      "projectAnalysisAndDesign",
+      "projectManagement",
+      "uiUxDesign",
+      "frontEndDev",
+      "backEndDev",
+      "coreDev"
+    ],
+    "techUsed": [
+      "cSharp",
+      "dotNetMaui",
+      "aspDotNetCore",
+      "msSqlServer",
+      "redgateToolbelt",
+      "vsAppCenter",
+      "apsIntegration",
+      "adobeXd"
+    ]
+  },
+  {
+    "name": "Seng Li e-Shop",
+    "description": "Automobile retail e-catalog",
+    "yearFrom": "2022",
+    "yearTo": "2023",
+    "preview": "/images/projects/sengLiEShop.png",
+    "responsibilities": [
+      "projectAnalysisAndDesign",
+      "projectManagement",
+      "uiUxDesign",
+      "frontEndDev",
+      "backEndDev",
+      "coreDev"
+    ],
+    "techUsed": [
+      "cSharp",
+      "dotNetMaui",
+      "aspDotNetCore",
+      "msSqlServer",
+      "redgateToolbelt",
+      "vsAppCenter",
+      "apsIntegration",
+      "adobeXd"
+    ]
+  },
+  {
+    "name": "Raigo e-Shop",
+    "description": "Automobile retail e-catalog",
+    "yearFrom": "2023",
+    "yearTo": "2024",
+    "preview": "/images/projects/raigoEShop.png",
+    "responsibilities": [
+      "projectAnalysisAndDesign",
+      "projectManagement",
+      "uiUxDesign",
+      "frontEndDev",
+      "backEndDev",
+      "coreDev"
+    ],
+    "techUsed": [
+      "dart",
+      "flutter",
+      "aspDotNetCore",
+      "msSqlServer",
+      "apsIntegration",
+      "googleFirebase",
+      "adobeXd",
+      "figma"
+    ]
+  },
+  {
+    "name": "Meteor B2B",
+    "description": "Meteor Business-to-Business eCommerce Platform",
+    "yearFrom": "2024",
+    "yearTo": "2025",
+    "preview": "/images/projects/meteorB2B.png",
+    "responsibilities": [
+      "projectAnalysisAndDesign",
+      "uiUxDesign",
+      "frontEndDev",
+      "backEndDev",
+      "coreDev"
+    ],
+    "techUsed": [
+      "reactJs",
+      "nextJs",
+      "tailwindCss",
+      "shadcnUi",
+      "typescript",
+      "msSqlServer",
+      "adobeXd"
+    ]
+  },
+  {
+    "name": "SengLiNet",
+    "description": "Seng Li Back-order and Feedback Website",
+    "yearFrom": "2024",
+    "yearTo": "2025",
+    "preview": "/images/projects/sengLiNet.png",
+    "responsibilities": [
+      "projectAnalysisAndDesign",
+      "uiUxDesign",
+      "frontEndDev",
+      "backEndDev",
+      "coreDev"
+    ],
+    "techUsed": [
+      "reactJs",
+      "nextJs",
+      "tailwindCss",
+      "shadcnUi",
+      "typescript",
+      "msSqlServer",
+      "adobeXd",
+      "penpot"
+    ]
+  },
+  {
+    "name": "maxchu92 | Portfolio",
+    "description": "My personal porfolio",
+    "yearFrom": "2024",
+    "yearTo": "2025",
+    "preview": "/images/projects/maxchu92Portfolio.png",
+    "responsibilities": ["uiUxDesign", "frontEndDev"],
+    "techUsed": [
+      "reactJs",
+      "nextJs",
+      "tailwindCss",
+      "shadcnUi",
+      "typescript",
+      "vercel",
+      "github",
+      "adobeXd"
     ]
   }
 ]
