@@ -1,8 +1,6 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { Poppins } from 'next/font/google';
-import { ThemeProvider } from '@/components/theme-provider';
-import { SpeedInsights } from '@vercel/speed-insights/next';
 import MultiProvider from '@/components/multi-provider';
 
 const poppins = Poppins({
