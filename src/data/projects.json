@@ -1,5 +1,6 @@
 [
   {
+    "key": "aps",
     "name": "AutoPowerSuite",
     "description": "Automobile Parts Sales and Inventory Management System",
     "yearFrom": "2014",
@@ -24,6 +25,7 @@
     ]
   },
   {
+    "key": "eys",
     "name": "Eu Yan Sang Malaysia",
     "description": "E-commerce website & Back-Office website",
     "yearFrom": "2014",
@@ -42,6 +44,7 @@
     ]
   },
   {
+    "key": "travel",
     "name": "Meteor eTravel",
     "description": "Travel Agency E-commerce Website & Back-Office Website",
     "yearFrom": "2016",
@@ -70,6 +73,7 @@
     ]
   },
   {
+    "key": "cos",
     "name": "COS (Tupperware Malaysia)",
     "description": "Campaign Order and Return Order Management Website",
     "yearFrom": "2019",
@@ -98,6 +102,7 @@
     ]
   },
   {
+    "key": "wcs",
     "name": "WCS (Tupperware Malaysia)",
     "description": "Warranty Claim Website and Back-office Website",
     "yearFrom": "2019",
@@ -126,6 +131,7 @@
     ]
   },
   {
+    "key": "tuppPassport",
     "name": "TuppPassport (Tupperware MY & SG)",
     "description": "Consultant Recruit and Enrollment Portal and Management Web",
     "yearFrom": "2020",
@@ -155,11 +161,12 @@
     ]
   },
   {
-    "name": "APS Mobile",
+    "key": "apsEnterprise",
+    "name": "APS Enterprise",
     "description": "Automobile Parts Sales and Inventory Management App for APS",
     "yearFrom": "2015",
     "yearTo": "2024",
-    "preview": "/images/projects/apsMobile.png",
+    "preview": "/images/projects/apsEnterprise.png",
     "responsibilities": [
       "projectAnalysisAndDesign",
       "projectManagement",
@@ -172,6 +179,7 @@
       "cSharp",
       "xamarin",
       "telerikUi",
+      "sqLite",
       "aspDotNetCore",
       "msSqlServer",
       "redgateToolbelt",
@@ -182,6 +190,7 @@
     ]
   },
   {
+    "key": "meteorNet",
     "name": "MeteorNet",
     "description": "Employee Management System",
     "yearFrom": "2017",
@@ -210,6 +219,7 @@
     ]
   },
   {
+    "key": "awh",
     "name": "APS Warehouse Helper",
     "description": "Warehouse management mobile app for APS",
     "yearFrom": "2018",
@@ -235,6 +245,17 @@
     ]
   },
   {
+    "key": "meteorScheduler",
+    "name": "Meteor Scheduler",
+    "description": "Automated scheduler program to execute programs, scripts, and database backup",
+    "yearFrom": "2019",
+    "yearTo": "2024",
+    "preview": "/images/projects/meteorScheduler.png",
+    "responsibilities": ["uiUxDesign", "frontEndDev", "coreDev"],
+    "techUsed": ["cSharp", "wpf", "sqLite"]
+  },
+  {
+    "key": "apsDispatch",
     "name": "APS Dispatch",
     "description": "Logistic management mobile app for APS",
     "yearFrom": "2020",
@@ -249,6 +270,7 @@
     "techUsed": [
       "cSharp",
       "dotNetMaui",
+      "sqLite",
       "aspDotNetCore",
       "msSqlServer",
       "redgateToolbelt",
@@ -259,6 +281,7 @@
     ]
   },
   {
+    "key": "apsPos",
     "name": "APS POS",
     "description": "Front counter POS System for Retails",
     "yearFrom": "2021",
@@ -272,6 +295,7 @@
     "techUsed": ["adobeXd"]
   },
   {
+    "key": "apsCashRegister",
     "name": "APS Cash Register",
     "description": "Cash Register App for Retails",
     "yearFrom": "2022",
@@ -285,6 +309,7 @@
     "techUsed": ["adobeXd"]
   },
   {
+    "key": "lalaparts",
     "name": "LalaParts",
     "description": "Automobile eCommerce Website",
     "yearFrom": "2022",
@@ -300,6 +325,7 @@
     "techUsed": [
       "cSharp",
       "dotNetMaui",
+      "sqLite",
       "aspDotNetCore",
       "msSqlServer",
       "redgateToolbelt",
@@ -309,6 +335,7 @@
     ]
   },
   {
+    "key": "slom",
     "name": "Seng Li Order Management",
     "description": "Seng Li Supplier Order and Quotation Management App",
     "yearFrom": "2021",
@@ -325,6 +352,7 @@
     "techUsed": [
       "cSharp",
       "dotNetMaui",
+      "sqLite",
       "aspDotNetCore",
       "msSqlServer",
       "redgateToolbelt",
@@ -334,6 +362,7 @@
     ]
   },
   {
+    "key": "sengLiEShop",
     "name": "Seng Li e-Shop",
     "description": "Automobile retail e-catalog",
     "yearFrom": "2022",
@@ -359,6 +388,7 @@
     ]
   },
   {
+    "key": "raigoEShop",
     "name": "Raigo e-Shop",
     "description": "Automobile retail e-catalog",
     "yearFrom": "2023",
@@ -375,6 +405,7 @@
     "techUsed": [
       "dart",
       "flutter",
+      "sqLite",
       "aspDotNetCore",
       "msSqlServer",
       "apsIntegration",
@@ -384,6 +415,7 @@
     ]
   },
   {
+    "key": "meteorB2B",
     "name": "Meteor B2B",
     "description": "Meteor Business-to-Business eCommerce Platform",
     "yearFrom": "2024",
@@ -407,6 +439,7 @@
     ]
   },
   {
+    "key": "sengLiNet",
     "name": "SengLiNet",
     "description": "Seng Li Back-order and Feedback Website",
     "yearFrom": "2024",
@@ -431,6 +464,7 @@
     ]
   },
   {
+    "key": "maxchu92Portfolio",
     "name": "maxchu92 | Portfolio",
     "description": "My personal porfolio",
     "yearFrom": "2024",

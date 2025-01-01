@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { Poppins } from 'next/font/google';
 import { ThemeProvider } from '@/components/theme-provider';
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import MultiProvider from '@/components/multi-provider';
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -75,15 +76,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${poppins.className} antialiased min-h-screen`}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          {children}
-          <SpeedInsights />
-        </ThemeProvider>
+        <MultiProvider>{children}</MultiProvider>
       </body>
     </html>
   );

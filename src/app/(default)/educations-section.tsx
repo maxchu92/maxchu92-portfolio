@@ -19,27 +19,29 @@ export default function EducationsSection() {
               className="h-full w-full rounded-md object-cover"
             />
           </AspectRatio>
-          {educations.map((education, i) => (
-            <Card key={`education_${i}`}>
-              <CardHeader>
-                <p className="text-lg flex gap-2 items-center">
-                  <GraduationCap className="size-8" />
-                  &nbsp;Graduated on&nbsp;{education.year}
-                </p>
-              </CardHeader>
-              <CardContent>
-                <div className="flex flex-col gap-1">
-                  <h3 className="text-2xl font-semibold">
-                    {education.university}
-                  </h3>
-                  <h4 className="text-primary font-semibold">
-                    {education.cert}
-                  </h4>
-                  <p>{education.description}</p>
-                </div>
-              </CardContent>
-            </Card>
-          ))}
+          {educations
+            .sort((n1, n2) => n2.year - n1.year)
+            .map((education, i) => (
+              <Card key={`education_${i}`}>
+                <CardHeader>
+                  <p className="text-lg flex gap-2 items-center">
+                    <GraduationCap className="size-8" />
+                    &nbsp;Graduated on&nbsp;{education.year}
+                  </p>
+                </CardHeader>
+                <CardContent>
+                  <div className="flex flex-col gap-1">
+                    <h3 className="text-2xl font-semibold">
+                      {education.university}
+                    </h3>
+                    <h4 className="text-primary font-semibold">
+                      {education.cert}
+                    </h4>
+                    <p>{education.description}</p>
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
         </div>
       </div>
     </div>

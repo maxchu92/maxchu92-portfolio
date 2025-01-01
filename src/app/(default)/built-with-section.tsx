@@ -41,7 +41,7 @@ export default function BuiltWithSection() {
               }}
               onMouseLeave={onMouseLeave_tech}
             >
-              <div className="h-16 w-16 rounded-md border border-transparent hover:border-foreground transition-all duration-300 opacity-75 hover:opacity-100 flex justify-center items-center">
+              <div className="h-16 w-16 rounded-md border border-transparent hover:border-foreground transition-all duration-300 opacity-75 hover:opacity-100 flex justify-center items-center p-2">
                 <AspectRatio ratio={1}>
                   <Image
                     fill={true}
