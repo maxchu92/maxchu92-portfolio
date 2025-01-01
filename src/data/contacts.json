@@ -1,0 +1,32 @@
+[
+  {
+    "key": "discord",
+    "description": "Discord",
+    "icon": "/icons/discord.svg",
+    "url": "https://discordapp.com/users/193770194009718786"
+  },
+  {
+    "key": "whatsapp",
+    "description": "WhatsApp",
+    "icon": "/icons/whatsapp.svg",
+    "url": "https://wa.me/60127835998"
+  },
+  {
+    "key": "facebook",
+    "description": "Facebook",
+    "icon": "/icons/facebook.svg",
+    "url": "https://fb.com/maxchu92"
+  },
+  {
+    "key": "instagram",
+    "description": "Instagram",
+    "icon": "/icons/instagram.svg",
+    "url": "https://instagram.com/maxchu92"
+  },
+  {
+    "key": "linkedin",
+    "description": "Linkedin",
+    "icon": "/icons/linkedin.svg",
+    "url": "https://linkedin.com/in/maxchu92/"
+  }
+]
