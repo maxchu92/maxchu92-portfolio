@@ -1,11 +1,12 @@
-'use client';
-
 import * as React from 'react';
 
 import { cn } from '@/lib/utils';
 import { NavigationMenuLink } from '@/components/ui/navigation-menu';
 import { ThemeModeMenu } from './theme-mode-menu';
 import AppDrawer from './app-drawer';
+import { Button } from './ui/button';
+import Link from 'next/link';
+import Image from 'next/image';
 
 export const components: {
   title: string;
@@ -124,7 +125,23 @@ export default function AppHeader() {
             </NavigationMenu> */}
           </div>
           <AppDrawer className="md:hidden" />
-          <ThemeModeMenu className="hidden md:block" />
+          <div className="hidden md:flex gap-2">
+            <Link
+              href="https://github.com/maxchu92/maxchu92-portfolio/"
+              target="_blank"
+            >
+              <Button type="button" variant="outline" size="icon">
+                <Image
+                  className="dark:invert"
+                  height={20}
+                  width={20}
+                  src="/icons/github.svg"
+                  alt="Available on Github"
+                />
+              </Button>
+            </Link>
+            <ThemeModeMenu />
+          </div>
         </div>
       </div>
 

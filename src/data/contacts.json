@@ -28,5 +28,11 @@
     "description": "Linkedin",
     "icon": "/icons/linkedin.svg",
     "url": "https://linkedin.com/in/maxchu92/"
+  },
+  {
+    "key": "github",
+    "description": "Github",
+    "icon": "/icons/github.svg",
+    "url": "https://github.com/maxchu92/"
   }
 ]

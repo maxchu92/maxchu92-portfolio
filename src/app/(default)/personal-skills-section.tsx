@@ -20,6 +20,16 @@ export default function PersonalSkillsSection() {
 
       {/* ROLES */}
       <div className="container mx-auto py-8 px-4 max-w-4xl">
+        <h3 className="text-xl text-center mb-4">Languages I speak</h3>
+        <div className="flex flex-wrap justify-center gap-4">
+          <RoleBadge name="English" />
+          <RoleBadge name="Malay" />
+          <RoleBadge name="Mandarin" />
+        </div>
+      </div>
+
+      {/* ROLES */}
+      <div className="container mx-auto py-8 px-4 max-w-4xl">
         <h3 className="text-xl text-center mb-4">
           Roles i have been in before
         </h3>
