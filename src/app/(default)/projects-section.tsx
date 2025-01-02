@@ -7,7 +7,6 @@ import TechBadge from '@/components/tech-badge';
 import { AspectRatio } from '@radix-ui/react-aspect-ratio';
 import Image from 'next/image';
 import clsx from 'clsx';
-import { Suspense } from 'react';
 
 type ExperienceType = keyof typeof experiences;
 type TechType = keyof typeof techs;

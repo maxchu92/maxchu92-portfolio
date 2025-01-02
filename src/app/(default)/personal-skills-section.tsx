@@ -34,9 +34,14 @@ export default function PersonalSkillsSection() {
           Roles i have been in before
         </h3>
         <div className="flex flex-wrap justify-center gap-4">
-          {responsibilities.map((res, i) => (
-            <RoleBadge key={i} name={experiences[res as ExperienceType].name} />
-          ))}
+          {responsibilities
+            .filter((res) => experiences[res as ExperienceType].isVisible)
+            .map((res, i) => (
+              <RoleBadge
+                key={i}
+                name={experiences[res as ExperienceType].name}
+              />
+            ))}
         </div>
       </div>
 

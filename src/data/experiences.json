@@ -1,23 +1,42 @@
 {
   "projectManagement": {
-    "name": "Project Management"
+    "name": "Project Management",
+    "isVisible": true
   },
   "projectScoping": {
-    "name": "Project Scoping"
+    "name": "Project Scoping",
+    "isVisible": true
   },
   "projectAnalysisAndDesign": {
-    "name": "Project Analysis and Design"
+    "name": "Project Analysis & Design",
+    "isVisible": true
   },
   "uiUxDesign": {
-    "name": "UI/UX Design"
+    "name": "UI/UX Design",
+    "isVisible": true
+  },
+  "uiUxDesignPartial": {
+    "name": "UI/UX Design (Partial)",
+    "isVisible": false
   },
   "frontEndDev": {
-    "name": "Front-End Development"
+    "name": "Front-End Development",
+    "isVisible": true
   },
   "backEndDev": {
-    "name": "Back-End development"
+    "name": "Back-End Development",
+    "isVisible": true
   },
   "coreDev": {
-    "name": "Core Development"
+    "name": "Core Development",
+    "isVisible": true
+  },
+  "databaseDesign": {
+    "name": "Database Design",
+    "isVisible": true
+  },
+  "databaseManagement": {
+    "name": "Database Management",
+    "isVisible": true
   }
 }

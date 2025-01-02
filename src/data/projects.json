@@ -12,7 +12,9 @@
       "uiUxDesign",
       "frontEndDev",
       "backEndDev",
-      "coreDev"
+      "coreDev",
+      "databaseDesign",
+      "databaseManagement"
     ],
     "techUsed": [
       "vbDotNet",
@@ -56,7 +58,9 @@
       "uiUxDesign",
       "frontEndDev",
       "backEndDev",
-      "coreDev"
+      "coreDev",
+      "databaseDesign",
+      "databaseManagement"
     ],
     "techUsed": [
       "vbDotNet",
@@ -85,7 +89,9 @@
       "uiUxDesign",
       "frontEndDev",
       "backEndDev",
-      "coreDev"
+      "coreDev",
+      "databaseDesign",
+      "databaseManagement"
     ],
     "techUsed": [
       "cSharp",
@@ -114,7 +120,9 @@
       "uiUxDesign",
       "frontEndDev",
       "backEndDev",
-      "coreDev"
+      "coreDev",
+      "databaseDesign",
+      "databaseManagement"
     ],
     "techUsed": [
       "cSharp",
@@ -143,7 +151,9 @@
       "uiUxDesign",
       "frontEndDev",
       "backEndDev",
-      "coreDev"
+      "coreDev",
+      "databaseDesign",
+      "databaseManagement"
     ],
     "techUsed": [
       "cSharp",
@@ -173,7 +183,9 @@
       "uiUxDesign",
       "frontEndDev",
       "backEndDev",
-      "coreDev"
+      "coreDev",
+      "databaseDesign",
+      "databaseManagement"
     ],
     "techUsed": [
       "cSharp",
@@ -202,7 +214,9 @@
       "uiUxDesign",
       "frontEndDev",
       "backEndDev",
-      "coreDev"
+      "coreDev",
+      "databaseDesign",
+      "databaseManagement"
     ],
     "techUsed": [
       "cSharp",
@@ -231,7 +245,9 @@
       "uiUxDesign",
       "frontEndDev",
       "backEndDev",
-      "coreDev"
+      "coreDev",
+      "databaseDesign",
+      "databaseManagement"
     ],
     "techUsed": [
       "cSharp",
@@ -251,7 +267,12 @@
     "yearFrom": "2019",
     "yearTo": "2024",
     "preview": "/images/projects/meteorScheduler.png",
-    "responsibilities": ["uiUxDesign", "frontEndDev", "coreDev"],
+    "responsibilities": [
+      "uiUxDesign",
+      "frontEndDev",
+      "coreDev",
+      "databaseDesign"
+    ],
     "techUsed": ["cSharp", "wpf", "sqLite"]
   },
   {
@@ -265,7 +286,9 @@
       "projectAnalysisAndDesign",
       "frontEndDev",
       "backEndDev",
-      "coreDev"
+      "coreDev",
+      "databaseDesign",
+      "databaseManagement"
     ],
     "techUsed": [
       "cSharp",
@@ -311,7 +334,7 @@
   {
     "key": "lalaparts",
     "name": "LalaParts",
-    "description": "Automobile eCommerce Website",
+    "description": "Automobile Consumer eCommerce App",
     "yearFrom": "2022",
     "yearTo": "2023",
     "preview": "/images/projects/lalaparts.png",
@@ -320,7 +343,9 @@
       "projectManagement",
       "frontEndDev",
       "backEndDev",
-      "coreDev"
+      "coreDev",
+      "databaseDesign",
+      "databaseManagement"
     ],
     "techUsed": [
       "cSharp",
@@ -344,10 +369,12 @@
     "responsibilities": [
       "projectAnalysisAndDesign",
       "projectManagement",
-      "uiUxDesign",
+      "uiUxDesignPartial",
       "frontEndDev",
       "backEndDev",
-      "coreDev"
+      "coreDev",
+      "databaseDesign",
+      "databaseManagement"
     ],
     "techUsed": [
       "cSharp",
@@ -374,7 +401,9 @@
       "uiUxDesign",
       "frontEndDev",
       "backEndDev",
-      "coreDev"
+      "coreDev",
+      "databaseDesign",
+      "databaseManagement"
     ],
     "techUsed": [
       "cSharp",
@@ -400,7 +429,9 @@
       "uiUxDesign",
       "frontEndDev",
       "backEndDev",
-      "coreDev"
+      "coreDev",
+      "databaseDesign",
+      "databaseManagement"
     ],
     "techUsed": [
       "dart",
@@ -426,7 +457,8 @@
       "uiUxDesign",
       "frontEndDev",
       "backEndDev",
-      "coreDev"
+      "coreDev",
+      "databaseDesign"
     ],
     "techUsed": [
       "reactJs",
@@ -450,7 +482,8 @@
       "uiUxDesign",
       "frontEndDev",
       "backEndDev",
-      "coreDev"
+      "coreDev",
+      "databaseDesign"
     ],
     "techUsed": [
       "reactJs",
@@ -480,6 +513,35 @@
       "vercel",
       "github",
       "adobeXd"
+    ]
+  },
+  {
+    "key": "sp2u",
+    "name": "sp2u.my",
+    "description": "Automobile Spare Parts consumer eCommerce Website",
+    "yearFrom": "2015",
+    "yearTo": "2020",
+    "preview": "/images/projects/sp2u.png",
+    "responsibilities": [
+      "projectAnalysisAndDesign",
+      "uiUxDesign",
+      "frontEndDev",
+      "backEndDev",
+      "coreDev",
+      "databaseDesign",
+      "databaseManagement"
+    ],
+    "techUsed": [
+      "cSharp",
+      "aspDotNetCore",
+      "html",
+      "css",
+      "bootstrap",
+      "javascript",
+      "jQuery",
+      "devExtremeJs",
+      "msSqlServer",
+      "redgateToolbelt"
     ]
   }
 ]
