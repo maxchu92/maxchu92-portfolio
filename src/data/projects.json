@@ -332,12 +332,12 @@
     "techUsed": ["adobeXd"]
   },
   {
-    "key": "lalaparts",
-    "name": "LalaParts",
+    "key": "lalapartsMarketplace",
+    "name": "LalaParts Marketplace",
     "description": "Automobile Consumer eCommerce App",
     "yearFrom": "2022",
     "yearTo": "2023",
-    "preview": "/images/projects/lalaparts.png",
+    "preview": "/images/projects/lalapartsMarketplace.png",
     "responsibilities": [
       "projectAnalysisAndDesign",
       "projectManagement",
@@ -356,13 +356,42 @@
       "redgateToolbelt",
       "vsAppCenter",
       "apsIntegration",
-      "figma"
+      "adobeXd"
+    ]
+  },
+  {
+    "key": "lalapartsSellerApp",
+    "name": "LalaParts Seller App",
+    "description": "eCommerce Back-Office App for Sellers",
+    "yearFrom": "2022",
+    "yearTo": "2023",
+    "preview": "/images/projects/lalapartsSellerApp.png",
+    "responsibilities": [
+      "projectAnalysisAndDesign",
+      "projectManagement",
+      "frontEndDev",
+      "backEndDev",
+      "coreDev",
+      "uiUxDesign",
+      "databaseDesign",
+      "databaseManagement"
+    ],
+    "techUsed": [
+      "cSharp",
+      "dotNetMaui",
+      "sqLite",
+      "aspDotNetCore",
+      "msSqlServer",
+      "redgateToolbelt",
+      "vsAppCenter",
+      "apsIntegration",
+      "adobeXd"
     ]
   },
   {
     "key": "slom",
     "name": "Seng Li Order Management",
-    "description": "Seng Li Supplier Order and Quotation Management App",
+    "description": "Seng Li Supplier Order Management App & Back-Office",
     "yearFrom": "2021",
     "yearTo": "2022",
     "preview": "/images/projects/slom.png",
@@ -398,7 +427,7 @@
     "responsibilities": [
       "projectAnalysisAndDesign",
       "projectManagement",
-      "uiUxDesign",
+      "uiUxDesignPartial",
       "frontEndDev",
       "backEndDev",
       "coreDev",
@@ -426,7 +455,7 @@
     "responsibilities": [
       "projectAnalysisAndDesign",
       "projectManagement",
-      "uiUxDesign",
+      "uiUxDesignPartial",
       "frontEndDev",
       "backEndDev",
       "coreDev",
@@ -448,7 +477,7 @@
   {
     "key": "meteorB2B",
     "name": "Meteor B2B",
-    "description": "Meteor Business-to-Business eCommerce Platform",
+    "description": "Meteor Business-to-Business eCommerce Platform and Back-Office",
     "yearFrom": "2024",
     "yearTo": "2025",
     "preview": "/images/projects/meteorB2B.png",
@@ -497,30 +526,11 @@
     ]
   },
   {
-    "key": "maxchu92Portfolio",
-    "name": "maxchu92 | Portfolio",
-    "description": "My personal porfolio",
-    "yearFrom": "2024",
-    "yearTo": "2025",
-    "preview": "/images/projects/maxchu92Portfolio.png",
-    "responsibilities": ["uiUxDesign", "frontEndDev"],
-    "techUsed": [
-      "reactJs",
-      "nextJs",
-      "tailwindCss",
-      "shadcnUi",
-      "typescript",
-      "vercel",
-      "github",
-      "adobeXd"
-    ]
-  },
-  {
     "key": "sp2u",
     "name": "sp2u.my",
     "description": "Automobile Spare Parts consumer eCommerce Website",
     "yearFrom": "2015",
-    "yearTo": "2020",
+    "yearTo": "2022",
     "preview": "/images/projects/sp2u.png",
     "responsibilities": [
       "projectAnalysisAndDesign",
@@ -543,5 +553,15 @@
       "msSqlServer",
       "redgateToolbelt"
     ]
+  },
+  {
+    "key": "apsWarehouseKiosk",
+    "name": "APS Warehouse Kiosk",
+    "description": "Warehouse Kiosk for APS",
+    "yearFrom": "2023",
+    "yearTo": "2024",
+    "preview": "/images/projects/apsWarehouseKiosk.png",
+    "responsibilities": ["uiUxDesign"],
+    "techUsed": ["adobeXd"]
   }
 ]

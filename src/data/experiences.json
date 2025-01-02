@@ -38,5 +38,9 @@
   "databaseManagement": {
     "name": "Database Management",
     "isVisible": true
+  },
+  "techCoaching": {
+    "name": "Tech Coaching",
+    "isVisible": true
   }
 }
