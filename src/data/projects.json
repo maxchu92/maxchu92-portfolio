@@ -235,7 +235,7 @@
   {
     "key": "awh",
     "name": "APS Warehouse Helper",
-    "description": "Warehouse management mobile app for APS",
+    "description": "Warehouse Management Mobile App for APS",
     "yearFrom": "2018",
     "yearTo": "2023",
     "preview": "/images/projects/awh.png",
@@ -263,7 +263,7 @@
   {
     "key": "meteorScheduler",
     "name": "Meteor Scheduler",
-    "description": "Automated scheduler program to execute programs, scripts, and database backup",
+    "description": "Automated scheduler app to execute programs, scripts, and database backup",
     "yearFrom": "2019",
     "yearTo": "2024",
     "preview": "/images/projects/meteorScheduler.png",
