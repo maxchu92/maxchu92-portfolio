@@ -6,6 +6,7 @@ import { Star } from 'lucide-react';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import RoleBadge from '@/components/role-badge';
 import TechBadge from '@/components/tech-badge';
+import { Fragment } from 'react';
 
 type ExperienceType = keyof typeof experiences;
 const responsibilities: string[] = Object.keys(experiences);
@@ -52,11 +53,14 @@ export default function PersonalSkillsSection() {
         </h3>
         <div className="flex flex-wrap justify-center gap-4">
           {techUsed.map((tu, i) => (
-            <TechBadge
-              key={`tu_${i}`}
-              name={techs[tu as TechType].name}
-              icon={techs[tu as TechType].icon}
-            />
+            <Fragment key={`tu_${i}`}>
+              <TechBadge
+                key={`tu_${i}`}
+                name={techs[tu as TechType].name}
+                icon={techs[tu as TechType].icon}
+                badge={techs[tu as TechType].badge}
+              />
+            </Fragment>
           ))}
         </div>
       </div>

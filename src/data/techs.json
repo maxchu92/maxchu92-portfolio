@@ -1,194 +1,242 @@
 {
   "dart": {
     "icon": "icons/dart.png",
-    "name": "Dart"
+    "name": "Dart",
+    "badge": "https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white"
   },
   "vbDotNet": {
     "icon": "icons/vbDotNet.png",
-    "name": "VB.NET"
+    "name": "VB.NET",
+    "badge": "https://img.shields.io/badge/VB.NET-5C2D91?style=flat&logo=.net&logoColor=white"
   },
   "cSharp": {
     "icon": "icons/cSharp.png",
-    "name": "C#"
+    "name": "C# .NET",
+    "badge": "https://img.shields.io/badge/C%23-2396F3?style=flat&logo=.net&logoColor=white"
   },
   "reactJs": {
     "icon": "icons/reactJs.svg",
-    "name": "React.js"
+    "name": "React.js",
+    "badge": "https://img.shields.io/badge/React.js-61DAFB?style=flat&logo=react&logoColor=black"
   },
   "nextJs": {
     "icon": "icons/nextJs.svg",
-    "name": "Next.js"
+    "name": "Next.js",
+    "badge": "https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white"
   },
   "typescript": {
     "icon": "icons/typescript.svg",
-    "name": "TypeScript"
+    "name": "TypeScript",
+    "badge": "https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white"
   },
   "shadcnUi": {
     "icon": "icons/shadcnUi.svg",
-    "name": "shadcn/ui"
+    "name": "shadcn/ui",
+    "badge": "https://img.shields.io/badge/shadcn/ui-2F80ED?style=flat&logo=shadcn&logoColor=white"
   },
   "tailwindCss": {
     "icon": "icons/tailwindCss.svg",
-    "name": "tailwindcss"
+    "name": "tailwindcss",
+    "badge": "https://img.shields.io/badge/tailwindcss-38B2AC?style=flat&logo=tailwindcss&logoColor=white"
   },
   "bootstrap": {
     "icon": "icons/bootstrap.png",
-    "name": "Bootstrap"
+    "name": "Bootstrap",
+    "badge": "https://img.shields.io/badge/Bootstrap-563D7C?style=flat&logo=bootstrap&logoColor=white"
   },
   "devExtremeJs": {
     "icon": "icons/devExtremeJs.png",
-    "name": "DevExtreme JS"
+    "name": "DevExtreme JS",
+    "badge": "https://img.shields.io/badge/DevExtreme%20JS-11A3E3?style=flat&logo=devextreme&logoColor=white"
   },
   "aspDotNet": {
     "icon": "icons/aspDotNet.png",
-    "name": "ASP.NET"
+    "name": "ASP.NET",
+    "badge": "https://img.shields.io/badge/ASP.NET-5C2D91?style=flat&logo=aspdotnet&logoColor=white"
   },
   "aspDotNetCore": {
     "icon": "icons/aspDotNetCore.png",
-    "name": "ASP.NET Core"
+    "name": "ASP.NET Core",
+    "badge": "https://img.shields.io/badge/ASP.NET%20Core-5C2D91?style=flat&logo=aspdotnetcore&logoColor=white"
   },
   "css": {
     "icon": "icons/css.png",
-    "name": "CSS"
+    "name": "CSS",
+    "badge": "https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white"
   },
   "javascript": {
     "icon": "icons/javascript.png",
-    "name": "Javascript"
+    "name": "Javascript",
+    "badge": "https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black"
   },
   "jQuery": {
     "icon": "icons/jQuery.png",
-    "name": "jQuery"
+    "name": "jQuery",
+    "badge": "https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white"
   },
   "html": {
     "icon": "icons/html.png",
-    "name": "HTML"
+    "name": "HTML",
+    "badge": "https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white"
   },
   "flutter": {
     "icon": "icons/flutter.png",
-    "name": "Flutter"
+    "name": "Flutter",
+    "badge": "https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white"
   },
   "xamarin": {
     "icon": "icons/xamarin.png",
-    "name": "Xamarin"
+    "name": "Xamarin",
+    "badge": "https://img.shields.io/badge/Xamarin-0078D4?style=flat&logo=xamarin&logoColor=white"
   },
   "dotNetMaui": {
     "icon": "icons/dotNetMaui.png",
-    "name": ".NET MAUI"
+    "name": ".NET MAUI",
+    "badge": "https://img.shields.io/badge/.NET%20MAUI-512BD4?style=flat&logo=dotnet&logoColor=white"
   },
   "telerikUi": {
     "icon": "icons/telerikUi.png",
-    "name": "Telerik UI"
+    "name": "Telerik UI",
+    "badge": "https://img.shields.io/badge/Telerik%20UI-1A56B4?style=flat&logo=telerik&logoColor=white"
   },
   "winforms": {
     "icon": "icons/winforms.png",
-    "name": "Windows Form .NET"
+    "name": "Windows Form .NET",
+    "badge": "https://img.shields.io/badge/Windows%20Form%20.NET-512BD4?style=flat&logo=dotnet&logoColor=white"
   },
   "wpf": {
     "icon": "icons/wpf.png",
-    "name": "Windows Presentation Foundation"
+    "name": "Windows Presentation Foundation",
+    "badge": "https://img.shields.io/badge/Windows%20Presentation%20Foundation-512BD4?style=flat&logo=dotnet&logoColor=white"
   },
   "devExpressWinForms": {
     "icon": "icons/devExpressWinForms.png",
-    "name": "DevExpress WinForm UI"
+    "name": "DevExpress WinForm UI",
+    "badge": "https://img.shields.io/badge/DevExpress%20WinForm%20UI-1E1E1E?style=flat&logo=devexpress&logoColor=white"
   },
   "lazadaApi": {
     "icon": "icons/lazadaApi.png",
-    "name": "Lazada API"
+    "name": "Lazada API",
+    "badge": "https://img.shields.io/badge/Lazada%20API-FF0000?style=flat&logo=lazada&logoColor=white"
   },
   "shopeeApi": {
     "icon": "icons/shopeeApi.png",
-    "name": "Shopee API"
+    "name": "Shopee API",
+    "badge": "https://img.shields.io/badge/Shopee%20API-FE4B5E?style=flat&logo=shopee&logoColor=white"
   },
   "shopifyApi": {
     "icon": "icons/shopifyApi.png",
-    "name": "Shopify API"
+    "name": "Shopify API",
+    "badge": "https://img.shields.io/badge/Shopify%20API-8C8C8C?style=flat&logo=shopify&logoColor=white"
   },
   "googleFirebase": {
     "icon": "icons/googleFirebase.png",
-    "name": "Google Firebase"
+    "name": "Google Firebase",
+    "badge": "https://img.shields.io/badge/Google%20Firebase-FFCA28?style=flat&logo=firebase&logoColor=black"
   },
   "iPay88": {
     "icon": "icons/iPay88.png",
-    "name": "iPay88 Payment Gateway"
+    "name": "iPay88 Payment Gateway",
+    "badge": "https://img.shields.io/badge/iPay88%20Payment%20Gateway-212F47?style=flat&logo=iPay88&logoColor=white"
   },
   "eGhl": {
     "icon": "icons/eGhl.png",
-    "name": "eGHL Payment Gateway"
+    "name": "eGHL Payment Gateway",
+    "badge": "https://img.shields.io/badge/eGHL%20Payment%20Gateway-00587A?style=flat&logo=egHL&logoColor=white"
   },
   "apsIntegration": {
     "icon": "icons/apsIntegration.png",
-    "name": "APS Integration"
+    "name": "APS Integration",
+    "badge": "https://img.shields.io/badge/APS%20Integration-45A0E7?style=flat&logo=aps&logoColor=white"
   },
   "figma": {
     "icon": "icons/figma.png",
-    "name": "Figma"
+    "name": "Figma",
+    "badge": "https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white"
   },
   "penpot": {
     "icon": "icons/penpot.png",
-    "name": "Penpot"
+    "name": "Penpot",
+    "badge": "https://img.shields.io/badge/Penpot-1B3A2A?style=flat&logo=penpot&logoColor=white"
   },
   "adobeXd": {
     "icon": "icons/adobeXd.svg",
-    "name": "Adobe XD"
+    "name": "Adobe XD",
+    "badge": "https://img.shields.io/badge/Adobe%20XD-FF61F6?style=flat&logo=adobexd&logoColor=white"
   },
   "adobePhotoshop": {
     "icon": "icons/adobePhotoshop.png",
-    "name": "Adobe Photoshop"
+    "name": "Adobe Photoshop",
+    "badge": "https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=flat&logo=adobephotoshop&logoColor=white"
   },
   "adobeLightroom": {
     "icon": "icons/adobeLightroom.png",
-    "name": "Adobe Lightroom"
+    "name": "Adobe Lightroom",
+    "badge": "https://img.shields.io/badge/Adobe%20Lightroom-31A8FF?style=flat&logo=adobelightroom&logoColor=white"
   },
   "msSqlServer": {
     "icon": "icons/msSqlServer.png",
-    "name": "Microsoft SQL Server"
+    "name": "Microsoft SQL Server",
+    "badge": "https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white"
   },
   "sqLite": {
     "icon": "icons/sqLite.png",
-    "name": "SQLite"
+    "name": "SQLite",
+    "badge": "https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white"
   },
   "awsRds": {
     "icon": "icons/awsRds.png",
-    "name": "Amazon RDS"
+    "name": "Amazon RDS",
+    "badge": "https://img.shields.io/badge/Amazon%20RDS-FF9900?style=flat&logo=amazondynamodb&logoColor=white"
   },
   "redgateToolbelt": {
     "icon": "icons/redgateToolbelt.png",
-    "name": "redgateToolbelt"
+    "name": "redgateToolbelt",
+    "badge": "https://img.shields.io/badge/redgateToolbelt-F58C4B?style=flat&logo=redgate&logoColor=white"
   },
   "awsVpc": {
     "icon": "icons/awsVpc.png",
-    "name": "Amazon VPC"
+    "name": "Amazon VPC",
+    "badge": "https://img.shields.io/badge/Amazon%20VPC-FF9900?style=flat&logo=amazonaws&logoColor=white"
   },
   "vsAppCenter": {
     "icon": "icons/vsAppCenter.png",
-    "name": "Visual Studio App Center"
+    "name": "Visual Studio App Center",
+    "badge": "https://img.shields.io/badge/Visual%20Studio%20App%20Center-563D7C?style=flat&logo=visualstudioappcenter&logoColor=white"
   },
   "azureDevOps": {
     "icon": "icons/azureDevOps.png",
-    "name": "Azure DevOps Server"
+    "name": "Azure DevOps Server",
+    "badge": "https://img.shields.io/badge/Azure%20DevOps%20Server-0078D4?style=flat&logo=azuredevops&logoColor=white"
   },
   "iis": {
     "icon": "icons/iis.png",
-    "name": "Microsoft Internet Information Services"
+    "name": "Microsoft Internet Information Services",
+    "badge": "https://img.shields.io/badge/Microsoft%20Internet%20Information%20Services-9B4C94?style=flat&logo=microsoftiis&logoColor=white"
   },
   "vercel": {
     "icon": "icons/vercel.svg",
-    "name": "Vercel"
+    "name": "Vercel",
+    "badge": "https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white"
   },
   "awsEc2": {
     "icon": "icons/awsEc2.png",
-    "name": "Amazon EC2"
+    "name": "Amazon EC2",
+    "badge": "https://img.shields.io/badge/Amazon%20EC2-FF9900?style=flat&logo=amazonec2&logoColor=white"
   },
   "xampp": {
     "icon": "icons/xampp.png",
-    "name": "XAMPP"
+    "name": "XAMPP",
+    "badge": "https://img.shields.io/badge/XAMPP-FE7A16?style=flat&logo=xampp&logoColor=white"
   },
   "github": {
     "icon": "icons/github.svg",
-    "name": "GitHub"
+    "name": "GitHub",
+    "badge": "https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"
   },
   "postman": {
     "icon": "icons/postman.png",
-    "name": "Postman"
+    "name": "Postman",
+    "badge": "https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white"
   }
 }

@@ -6,6 +6,17 @@ const nextConfig: NextConfig = {
   env: {
     version,
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'img.shields.io',
+        port: '',
+        pathname: '/badge/**',
+        search: '',
+      },
+    ],
+  },
 };
 
 export default nextConfig;

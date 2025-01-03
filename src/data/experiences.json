@@ -1,4 +1,8 @@
 {
+  "rnd": {
+    "name": "Research & Development",
+    "isVisible": true
+  },
   "projectManagement": {
     "name": "Project Management",
     "isVisible": true
@@ -9,10 +13,6 @@
   },
   "projectAnalysisAndDesign": {
     "name": "Project Analysis & Design",
-    "isVisible": true
-  },
-  "rnd": {
-    "name": "Research & Development",
     "isVisible": true
   },
   "uiUxDesign": {
