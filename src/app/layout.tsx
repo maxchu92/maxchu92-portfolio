@@ -2,6 +2,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Poppins } from 'next/font/google';
 import MultiProvider from '@/components/multi-provider';
+import profile from '@/data/profile.json';
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -17,7 +18,7 @@ export const metadata: Metadata = {
     "Explore Max Chu's portfolio showcasing expertise in software development, React, Next.js, and innovative web solutions. Let's build something amazing!",
   keywords: [
     'Max Chu',
-    'full-stack developer',
+    'Lead developer',
     'portfolio',
     'React.js',
     'Next.js',
@@ -39,14 +40,14 @@ export const metadata: Metadata = {
     { media: '(prefers-color-scheme: light)', color: '#ffffff' },
   ],
   openGraph: {
-    title: 'Max Chu - Full-stack Developer Portfolio',
+    title: `${profile.fullName} - ${profile.position} Portfolio`,
     description:
       "Dive into Max Chu's world of web development, featuring cutting-edge projects in React, Next.js, and more.",
-    url: 'https://your-portfolio-url.com', // Replace with your domain
+    url: 'https://maxchu92-portfolio.vercel.app/', // Replace with your domain
     siteName: 'Max Chu Portfolio',
     images: [
       {
-        url: 'https://your-portfolio-url.com/og-image.jpg', // Replace with your OG image URL
+        url: 'https://maxchu92-portfolio.vercel.app/og-image.jpg', // Replace with your OG image URL
         width: 1200,
         height: 630,
         alt: 'Max Chu Portfolio Cover Image',
@@ -57,7 +58,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Max Chu - Full-stack Developer Portfolio',
+    title: 'Max Chu - Lead Developer Portfolio',
     description:
       "Check out Max Chu's portfolio for impressive web development projects in React and Next.js.",
     images: [

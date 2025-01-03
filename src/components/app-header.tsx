@@ -125,7 +125,8 @@ export default function AppHeader() {
             </NavigationMenu> */}
           </div>
           <AppDrawer className="md:hidden" />
-          <div className="hidden md:flex gap-2">
+          <div className="hidden md:flex gap-2 items-center">
+            <span className="mr-4">Available on GitHub</span>
             <Link
               href="https://github.com/maxchu92/maxchu92-portfolio/"
               target="_blank"

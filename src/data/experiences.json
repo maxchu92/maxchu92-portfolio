@@ -11,6 +11,10 @@
     "name": "Project Analysis & Design",
     "isVisible": true
   },
+  "rnd": {
+    "name": "Research & Development",
+    "isVisible": true
+  },
   "uiUxDesign": {
     "name": "UI/UX Design",
     "isVisible": true

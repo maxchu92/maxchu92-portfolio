@@ -1,4 +1,5 @@
 import clsx from 'clsx';
+import Image from 'next/image';
 import React from 'react';
 
 interface TechBadgeProps extends React.HTMLAttributes<HTMLDivElement> {
@@ -7,7 +8,12 @@ interface TechBadgeProps extends React.HTMLAttributes<HTMLDivElement> {
   icon?: string;
 }
 
-const TechBadge: React.FC<TechBadgeProps> = ({ className, name, ...rest }) => {
+const TechBadge: React.FC<TechBadgeProps> = ({
+  className,
+  name,
+  icon,
+  ...rest
+}) => {
   return (
     <div
       className={clsx(
@@ -16,6 +22,12 @@ const TechBadge: React.FC<TechBadgeProps> = ({ className, name, ...rest }) => {
       )}
       {...rest}
     >
+      <img
+        width={20}
+        height={20}
+        src={'/icons/vbDotNet.png'}
+        alt={`Icon of ${name}`}
+      />
       {/* <Stars /> */}
       {name}
     </div>

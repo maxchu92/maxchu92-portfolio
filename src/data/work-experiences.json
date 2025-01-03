@@ -3,21 +3,21 @@
     "company": "Meteorsoft Sdn. Bhd.",
     "yearFrom": "2017",
     "yearTo": "2025",
-    "position": "Head of Research & Development",
+    "position": "Research & Development Manager",
     "description": "Led a team of developers in creating cutting-edge web and mobile applications. Spearheaded the adoption of new technologies and frameworks to improve development efficiency. Oversaw project management, ensuring timely delivery of high-quality software solutions."
   },
   {
     "company": "Meteorsoft Sdn. Bhd.",
     "yearFrom": "2016",
     "yearTo": "2017",
-    "position": "Senior Developer",
+    "position": "Senior Software Engineer",
     "description": "Developed and maintained complex web and mobile applications using C#, HTML, JS, jQuery, CSS, and ASP.Net Core. Collaborated  with cross-functional teams to gather requirements and deliver customized solutions. Mentored junior developers, fostering their growth and enhancing team productivity. Managed Microsoft SQL Server databases, ensuring optimal performance and security."
   },
   {
     "company": "Meteorsoft Sdn. Bhd.",
     "yearFrom": "2014",
     "yearTo": "2015",
-    "position": "Junior Developer",
+    "position": "Junior Software Engineer",
     "description": "Gained foundational experience in developing web and mobile applications. Worked with VB.Net and WinForm, C# and WPF, contributing to various projects under the guidance of senior developers. Assisted in managing Microsoft SQL Server databases."
   }
 ]
