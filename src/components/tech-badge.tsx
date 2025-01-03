@@ -9,10 +9,11 @@ interface TechBadgeProps extends React.HTMLAttributes<HTMLDivElement> {
 }
 
 const TechBadge: React.FC<TechBadgeProps> = ({
-  className,
+  //className,
   name,
+  //icon,
   badge,
-  ...rest
+  //...rest
 }) => {
   return <img src={badge!} alt={`Badge of ${name}`} />;
   /* return (
