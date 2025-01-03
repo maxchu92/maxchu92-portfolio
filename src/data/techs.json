@@ -39,7 +39,6 @@
     "icon": "icons/devExtremeJs.png",
     "name": "DevExtreme JS"
   },
-
   "aspDotNet": {
     "icon": "icons/aspDotNet.png",
     "name": "ASP.NET"
@@ -154,7 +153,7 @@
   },
   "redgateToolbelt": {
     "icon": "icons/redgateToolbelt.png",
-    "name": "Redgate Toolbelt"
+    "name": "redgateToolbelt"
   },
   "awsVpc": {
     "icon": "icons/awsVpc.png",
