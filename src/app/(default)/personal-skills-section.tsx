@@ -52,7 +52,11 @@ export default function PersonalSkillsSection() {
         </h3>
         <div className="flex flex-wrap justify-center gap-4">
           {techUsed.map((tu, i) => (
-            <TechBadge key={`tu_${i}`} name={techs[tu as TechType].name} />
+            <TechBadge
+              key={`tu_${i}`}
+              name={techs[tu as TechType].name}
+              icon={techs[tu as TechType].icon}
+            />
           ))}
         </div>
       </div>

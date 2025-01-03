@@ -17,7 +17,10 @@ export default function HeroSection() {
     <div className="container mx-auto px-4">
       <div className="min-h-[70vh] flex flex-col justify-center items-center gap-6 text-center">
         <h1 className="text-7xl">{profile.fullName}</h1>
-        <h2 className="text-xl">{profile.position}</h2>
+        <h2 className="text-xl">
+          {profile.position}
+          {profile.company ? ` at ${profile.company}` : ''}
+        </h2>
         <Contacts />
         <ul className="flex list-disc justify-center flex-wrap gap-x-10 pl-6 text-muted-foreground">
           {highlights.map((h, i) => (

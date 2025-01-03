@@ -72,8 +72,8 @@ export default function ProjectsSection() {
                       {proj.techUsed.map((tu, i) => (
                         <TechBadge
                           key={`tu_${i}`}
-                          icon={techs[tu as TechType].icon}
                           name={techs[tu as TechType].name}
+                          icon={techs[tu as TechType].icon}
                         />
                       ))}
                     </div>

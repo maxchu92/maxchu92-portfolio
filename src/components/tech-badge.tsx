@@ -22,13 +22,11 @@ const TechBadge: React.FC<TechBadgeProps> = ({
       )}
       {...rest}
     >
-      <img
-        width={20}
-        height={20}
-        src={'/icons/vbDotNet.png'}
-        alt={`Icon of ${name}`}
-      />
-      {/* <Stars /> */}
+      {/*  {icon ? (
+        <img width={20} height={20} src={icon} alt={`Icon of ${name}`} />
+      ) : (
+        <></>
+      )} */}
       {name}
     </div>
   );
