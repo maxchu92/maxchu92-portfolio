@@ -6,7 +6,7 @@ Things I code with
 
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 ![VB.NET](https://img.shields.io/badge/VB.NET-512BD4?style=for-the-badge&logo=.net&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=.net&logoColor=white)
 ![React.js](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
@@ -21,12 +21,12 @@ Things I code with
 ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Xamarin](https://img.shields.io/badge/Xamarin-3498DB?style=for-the-badge&logo=xamarin&logoColor=white)
+![Xamarin](https://img.shields.io/badge/Xamarin-3498DB?style=for-the-badge&logo=.net&logoColor=white)
 ![.NET MAUI](https://img.shields.io/badge/.NET_MAUI-512BD4?style=for-the-badge&logo=.net&logoColor=white)
 ![Telerik UI](https://img.shields.io/badge/Telerik_UI-512BD4?style=for-the-badge)
-![Windows Forms](https://img.shields.io/badge/Windows%20Forms-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![WPF](https://img.shields.io/badge/WPF-512BD4?style=for-the-badge)
-![DevExpress](https://img.shields.io/badge/DevExpress-FF6600?style=for-the-badge)
+![Windows Forms](https://img.shields.io/badge/Windows%20Forms-0078D6?style=for-the-badge&logo=.net&logoColor=white)
+![WPF](https://img.shields.io/badge/WPF-512BD4?style=for-the-badge&logo=.net)
+![DevExpress WinForm](https://img.shields.io/badge/DevExpress_WinForm-FF6600?style=for-the-badge)
 ![Lazada API](https://img.shields.io/badge/Lazada_API-FF5722?style=for-the-badge)
 ![Shopee API](https://img.shields.io/badge/Shopee_API-FF5722?style=for-the-badge)
 ![Shopify API](https://img.shields.io/badge/Shopify_API-7AB55C?style=for-the-badge&logo=shopify&logoColor=white)
@@ -50,6 +50,7 @@ Things I code with
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 - 🚀 **Software Development**: Proficient in Next.js, React, TypeScript, Tailwind CSS, and more.
 - 📊 **Project Management**: Leading R&D initiatives and mentoring teams to deliver impactful projects.

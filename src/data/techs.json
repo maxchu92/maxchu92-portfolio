@@ -186,5 +186,9 @@
   "github": {
     "icon": "icons/github.svg",
     "name": "GitHub"
+  },
+  "postman": {
+    "icon": "icons/postman.png",
+    "name": "Postman"
   }
 }
