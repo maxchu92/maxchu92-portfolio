@@ -9,7 +9,7 @@ export default function HeroSection() {
       id="hero-section"
       className="container mx-auto px-4 h-[70vh] max-h-[700px] scroll-mt-[57px] md:scroll-mt-[69px]"
     >
-      <div className="min-h-[600px] flex flex-col justify-center items-center gap-6 text-center animate-in fade-in duration-700">
+      <div className="min-h-[600px] flex flex-col justify-center items-center gap-6 text-center animate-in fade-in duration-1000">
         <h1 className="text-4xl md:text-7xl">{profile.fullName}</h1>
         <h2 className="md:text-xl">
           {profile.position}
