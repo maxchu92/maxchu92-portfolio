@@ -14,10 +14,10 @@ const highlights = [
 
 export default function HeroSection() {
   return (
-    <div className="container mx-auto px-4">
-      <div className="min-h-[70vh] flex flex-col justify-center items-center gap-6 text-center">
-        <h1 className="text-7xl">{profile.fullName}</h1>
-        <h2 className="text-xl">
+    <div id="hero-section" className="container mx-auto px-4 min-h-[70vh]">
+      <div className="min-h-[600px] flex flex-col justify-center items-center gap-6 text-center">
+        <h1 className="text-4xl md:text-7xl">{profile.fullName}</h1>
+        <h2 className="md:text-xl">
           {profile.position}
           {profile.company ? ` at ${profile.company}` : ''}
         </h2>
@@ -29,7 +29,7 @@ export default function HeroSection() {
             </Fragment>
           ))}
         </ul>
-        <p className="max-w-2xl text-xl">{profile.shortDescription}</p>
+        <p className="max-w-2xl md:text-xl">{profile.shortDescription}</p>
       </div>
     </div>
   );

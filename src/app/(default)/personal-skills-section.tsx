@@ -16,7 +16,7 @@ const techUsed: string[] = Object.keys(techs);
 
 export default function PersonalSkillsSection() {
   return (
-    <div>
+    <div id="personal-skills-section">
       <SectionHeader title="Personal Skills" />
 
       {/* ROLES */}

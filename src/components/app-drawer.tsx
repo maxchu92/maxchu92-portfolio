@@ -4,6 +4,7 @@ import { Menu } from 'lucide-react';
 
 import {
   Drawer,
+  DrawerClose,
   DrawerContent,
   DrawerDescription,
   DrawerHeader,
@@ -13,46 +14,9 @@ import {
 import { ScrollArea } from '@/components/ui/scroll-area';
 import Link from 'next/link';
 import { ThemeModeToggles } from './theme-mode-toggles';
-import { Fragment } from 'react';
 import Contacts from './contacts';
-
-const menus = [
-  {
-    title: 'Introduction',
-    href: '#intro',
-    target: '',
-  },
-  {
-    title: 'About me',
-    href: '#about',
-    target: '',
-  },
-  {
-    title: 'Personal Skills',
-    href: '#personalSkills',
-    target: '',
-  },
-  {
-    title: 'Work Experiences',
-    href: '#workExperiences',
-    target: '',
-  },
-  {
-    title: 'Education',
-    href: '#education',
-    target: '',
-  },
-  {
-    title: 'Projects',
-    href: '#projects',
-    target: '',
-  },
-  {
-    title: 'Available on GitHub',
-    href: 'https://github.com/maxchu92/maxchu92-portfolio/',
-    target: '_blank',
-  },
-];
+import { Button } from './ui/button';
+import menus from '@/data/menus.json';
 
 export default function AppDrawer(props: { className?: string }) {
   return (
@@ -64,30 +28,46 @@ export default function AppDrawer(props: { className?: string }) {
         <DrawerContent>
           <div className="mx-auto w-full">
             <DrawerHeader>
-              <DrawerTitle>Menu</DrawerTitle>
-              <DrawerDescription>maxchu92 | portfolio</DrawerDescription>
+              <DrawerTitle className="text-center">Menu</DrawerTitle>
+              <DrawerDescription className="text-center">
+                maxchu92 | portfolio
+              </DrawerDescription>
             </DrawerHeader>
 
-            <ScrollArea className="h-72 w-full">
-              <div className="p-4 flex flex-col gap-6">
+            <ScrollArea className="h-[70vh] w-full">
+              <div className="p-4 flex flex-col gap-6 text-center">
                 {menus.map((menu) => (
-                  <Fragment key={menu.href}>
+                  <DrawerClose key={menu.href} asChild>
                     <Link target={menu.target} href={menu.href}>
                       {menu.title}
                     </Link>
-                    {/* <Separator /> */}
-                  </Fragment>
+                  </DrawerClose>
                 ))}
               </div>
+              <div className="p-4 flex flex-col gap-2 items-center">
+                <p className="text-xs text-muted-foreground">Contact me via</p>
+                <Contacts />
+              </div>
+              <div className="p-4 flex flex-col gap-2 items-center">
+                <p className="text-xs text-muted-foreground">Switch mode</p>
+                <ThemeModeToggles />
+              </div>
+              <div className="p-4 flex flex-col gap-2 items-center underline">
+                <Button
+                  type="button"
+                  variant="link"
+                  className="text-primary-foreground"
+                  asChild
+                >
+                  <Link
+                    target="_blank"
+                    href="https://github.com/maxchu92/maxchu92-portfolio/"
+                  >
+                    Available on Github
+                  </Link>
+                </Button>
+              </div>
             </ScrollArea>
-            <div className="p-4 flex flex-col gap-2 items-center">
-              <p className="text-xs text-muted-foreground">Contact me via</p>
-              <Contacts />
-            </div>
-            <div className="p-4 flex flex-col gap-2 items-center">
-              <p className="text-xs text-muted-foreground">Switch mode</p>
-              <ThemeModeToggles />
-            </div>
           </div>
         </DrawerContent>
       </Drawer>

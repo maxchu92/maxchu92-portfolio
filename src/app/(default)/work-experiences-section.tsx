@@ -4,7 +4,7 @@ import workExperiences from '@/data/work-experiences.json';
 
 export default function WorkExperiencesSection() {
   return (
-    <div>
+    <div id="work-experiences-section">
       <SectionHeader title="Work Experiences" />
       <div className="container mx-auto py-8 px-4">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">

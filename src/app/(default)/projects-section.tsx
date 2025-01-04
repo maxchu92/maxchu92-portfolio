@@ -13,12 +13,16 @@ type TechType = keyof typeof techs;
 
 export default function ProjectsSection() {
   return (
-    <div>
+    <div id="projects-section">
       <SectionHeader title="Projects" />
       {projects
         .sort((n1, n2) => +n1.yearFrom - +n2.yearFrom)
         .map((proj, i) => (
-          <div key={`proj_${i}`} className="container mx-auto px-4 py-10">
+          <div
+            key={`proj_${i}`}
+            id={`proj-${proj.key}`}
+            className="container mx-auto px-4 py-10"
+          >
             <div className="py-4">
               {/* HEADER */}
               <div className="grid md:grid-cols-2 md:gap-8 md:items-center mb-4">

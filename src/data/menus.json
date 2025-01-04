@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Home",
+    "description": "Back to home",
+    "href": "#home",
+    "target": "",
+    "isVisibleInMobile": true
+  },
+  {
+    "title": "About me",
+    "description": "Let me tell you my stories",
+    "href": "#about-me",
+    "target": "",
+    "isVisibleInMobile": true
+  },
+  {
+    "title": "Personal Skills",
+    "description": "Be amazed by my tech expertise",
+    "href": "#personal-skills-section",
+    "target": "",
+    "isVisibleInMobile": true
+  },
+  {
+    "title": "Work Experiences",
+    "description": "Walk along with my journey in the tech world",
+    "href": "#work-experiences-section",
+    "target": "",
+    "isVisibleInMobile": true
+  },
+  {
+    "title": "Educations",
+    "description": "Where I build my foundations",
+    "href": "#educations-section",
+    "target": "",
+    "isVisibleInMobile": true
+  },
+  {
+    "title": "Projects",
+    "description": "Explore what I had completed since the beginning",
+    "href": "#projects-section",
+    "target": "",
+    "isVisibleInMobile": true
+  },
+  {
+    "title": "Built With",
+    "description": "See the techs behind this page",
+    "href": "#built-with-section",
+    "target": "",
+    "isVisibleInMobile": true
+  },
+  {
+    "title": "Downloads",
+    "description": "Bring something home with you",
+    "href": "#downloads-section",
+    "target": "",
+    "isVisibleInMobile": true
+  },
+  {
+    "title": "Contacts",
+    "description": "Connect with me",
+    "href": "#contacts-section",
+    "target": "",
+    "isVisibleInMobile": false
+  }
+]

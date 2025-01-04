@@ -3,7 +3,7 @@ import Contacts from '@/components/contacts';
 export default function AppFooter() {
   return (
     <footer>
-      <div className="container mx-auto p-8 text-center">
+      <div id="contacts-section" className="container mx-auto p-8 text-center">
         <h2 className="text-2xl">Contact me via</h2>
         <Contacts />
       </div>
