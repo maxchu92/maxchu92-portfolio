@@ -13,7 +13,7 @@ type TechType = keyof typeof techs;
 
 export default function ProjectsSection() {
   return (
-    <div id="projects-section">
+    <div id="projects-section" className="scroll-mt-[57px] md:scroll-mt-[69px]">
       <SectionHeader title="Projects" />
       {projects
         .sort((n1, n2) => +n1.yearFrom - +n2.yearFrom)
@@ -21,9 +21,9 @@ export default function ProjectsSection() {
           <div
             key={`proj_${i}`}
             id={`proj-${proj.key}`}
-            className="container mx-auto px-4 py-10"
+            className="container mx-auto px-4 py-10 scroll-mt-[57px] md:scroll-mt-[69px]"
           >
-            <div className="py-4">
+            <div className="py-4 animate-in fade-in slide-in-from-bottom duration-700">
               {/* HEADER */}
               <div className="grid md:grid-cols-2 md:gap-8 md:items-center mb-4">
                 <h3 className="text-5xl md:text-7xl md:text-right mb-4 md:mb-8">

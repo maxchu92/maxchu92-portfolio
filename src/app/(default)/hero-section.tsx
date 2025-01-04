@@ -1,21 +1,15 @@
 import Contacts from '@/components/contacts';
 import profile from '@/data/profile.json';
 import { Fragment } from 'react';
-
-const highlights = [
-  'Full stack Developer',
-  'ASP.Net',
-  'MAUI.Net',
-  'C#',
-  'Flutter',
-  'React.js',
-  'Next.Js',
-];
+import highlights from '@/data/highlights.json';
 
 export default function HeroSection() {
   return (
-    <div id="hero-section" className="container mx-auto px-4 min-h-[70vh]">
-      <div className="min-h-[600px] flex flex-col justify-center items-center gap-6 text-center">
+    <div
+      id="hero-section"
+      className="container mx-auto px-4 h-[70vh] max-h-[700px] scroll-mt-[57px] md:scroll-mt-[69px]"
+    >
+      <div className="min-h-[600px] flex flex-col justify-center items-center gap-6 text-center animate-in fade-in duration-700">
         <h1 className="text-4xl md:text-7xl">{profile.fullName}</h1>
         <h2 className="md:text-xl">
           {profile.position}

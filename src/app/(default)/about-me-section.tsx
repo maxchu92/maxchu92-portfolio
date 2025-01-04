@@ -5,7 +5,7 @@ export default function AboutMeSection() {
   return (
     <div
       id="about-me"
-      className="container mx-auto py-8 px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+      className="container mx-auto py-8 px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 scroll-mt-[57px] md:scroll-mt-[69px]"
     >
       <div className="col-span-1 lg:col-span-2">
         <div className="flex flex-col gap-4">

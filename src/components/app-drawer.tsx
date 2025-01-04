@@ -28,9 +28,13 @@ export default function AppDrawer(props: { className?: string }) {
         <DrawerContent>
           <div className="mx-auto w-full">
             <DrawerHeader>
-              <DrawerTitle className="text-center">Menu</DrawerTitle>
-              <DrawerDescription className="text-center">
+              <DrawerTitle className="text-center">
                 maxchu92 | portfolio
+              </DrawerTitle>
+              <DrawerDescription className="text-center">
+                <DrawerClose asChild>
+                  <Link href="/">Back to Top</Link>
+                </DrawerClose>
               </DrawerDescription>
             </DrawerHeader>
 

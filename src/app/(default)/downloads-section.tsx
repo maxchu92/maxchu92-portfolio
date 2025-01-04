@@ -3,7 +3,10 @@ import Link from 'next/link';
 
 export default function DownloadsSection() {
   return (
-    <div id="downloads-section" className=" py-6">
+    <div
+      id="downloads-section"
+      className="py-6 scroll-mt-[57px] md:scroll-mt-[69px]"
+    >
       <div className="container mx-auto max-w-4xl py-8 px-4">
         <div className="text-4xl text-center mb-4">
           <h2 className="text-gray-500 mb-1">Downloads</h2>

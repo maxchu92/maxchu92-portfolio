@@ -21,10 +21,12 @@ import { ScrollArea } from './ui/scroll-area';
 export default function AppHeader() {
   return (
     <>
-      <div className="border-b bg-background w-screen z-50 pr-4">
+      <div className="fixed top-0 border-b bg-background w-screen z-50 pr-4">
         <div className="container mx-auto p-4 flex justify-between items-center">
           <div className="flex items-center gap-4">
-            <h2>maxchu92 | portfolio</h2>
+            <h2>
+              <Link href="/">maxchu92 | portfolio</Link>
+            </h2>
             <NavigationMenu className="hidden md:block">
               <NavigationMenuList>
                 <NavigationMenuItem>

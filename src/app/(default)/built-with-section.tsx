@@ -23,7 +23,10 @@ export default function BuiltWithSection() {
   type TechType = keyof typeof techs;
 
   return (
-    <div id="built-with-section" className="container mx-auto py-8 px-4">
+    <div
+      id="built-with-section"
+      className="container mx-auto py-8 px-4 scroll-mt-[57px] md:scroll-mt-[69px]"
+    >
       <div className="flex flex-col items-center">
         <div className="text-4xl text-center mb-6">
           <h2 className="text-gray-500 mb-1">Built with</h2>

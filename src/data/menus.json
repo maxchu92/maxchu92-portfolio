@@ -1,12 +1,5 @@
 [
   {
-    "title": "Home",
-    "description": "Back to home",
-    "href": "#home",
-    "target": "",
-    "isVisibleInMobile": true
-  },
-  {
     "title": "About me",
     "description": "Let me tell you my stories",
     "href": "#about-me",

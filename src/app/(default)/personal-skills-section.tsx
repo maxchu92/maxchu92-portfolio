@@ -16,7 +16,10 @@ const techUsed: string[] = Object.keys(techs);
 
 export default function PersonalSkillsSection() {
   return (
-    <div id="personal-skills-section">
+    <div
+      id="personal-skills-section"
+      className="scroll-mt-[57px] md:scroll-mt-[69px]"
+    >
       <SectionHeader title="Personal Skills" />
 
       {/* ROLES */}
@@ -52,16 +55,18 @@ export default function PersonalSkillsSection() {
           Experience with various languages, frameworks and APIs
         </h3>
         <div className="flex flex-wrap justify-center gap-4">
-          {techUsed.map((tu, i) => (
-            <Fragment key={`tu_${i}`}>
-              <TechBadge
-                key={`tu_${i}`}
-                name={techs[tu as TechType].name}
-                icon={techs[tu as TechType].icon}
-                badge={techs[tu as TechType].badge}
-              />
-            </Fragment>
-          ))}
+          {techUsed
+            .sort((n1, n2) => (n1 < n2 ? -1 : 1))
+            .map((tu, i) => (
+              <Fragment key={`tu_${i}`}>
+                <TechBadge
+                  key={`tu_${i}`}
+                  name={techs[tu as TechType].name}
+                  icon={techs[tu as TechType].icon}
+                  badge={techs[tu as TechType].badge}
+                />
+              </Fragment>
+            ))}
         </div>
       </div>
 

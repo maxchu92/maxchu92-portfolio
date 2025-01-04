@@ -12,24 +12,19 @@ import { ScrollArea } from '@/components/ui/scroll-area';
 
 export default function Page() {
   return (
-    <main className="min-h-dvh" id="home">
+    <main className="h-dvh" id="home">
       <AppHeader />
-      <div>
-        <ScrollArea
-          type="always"
-          className="h-[calc(100vh-57px)] md:h-[calc(100vh-69px)]"
-        >
-          <HeroSection />
-          <AboutMeSection />
-          <PersonalSkillsSection />
-          <WorkExperiencesSection />
-          <EducationsSection />
-          <ProjectsSection />
-          <BuiltWithSection />
-          <DownloadsSection />
-          <AppFooter />
-        </ScrollArea>
-      </div>
+      <ScrollArea type="always" className="mt-[57px] md:mt-[69px]">
+        <HeroSection />
+        <AboutMeSection />
+        <PersonalSkillsSection />
+        <WorkExperiencesSection />
+        <EducationsSection />
+        <ProjectsSection />
+        <BuiltWithSection />
+        <DownloadsSection />
+        <AppFooter />
+      </ScrollArea>
     </main>
   );
 }

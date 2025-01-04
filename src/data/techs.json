@@ -47,17 +47,17 @@
   "devExtremeJs": {
     "icon": "icons/devExtremeJs.png",
     "name": "DevExtreme JS",
-    "badge": "https://img.shields.io/badge/DevExtreme%20JS-11A3E3?style=flat&logo=devextreme&logoColor=white"
+    "badge": "https://img.shields.io/badge/DevExtreme%20JS-11A3E3?style=flat&logo=devexpress&logoColor=white"
   },
   "aspDotNet": {
     "icon": "icons/aspDotNet.png",
     "name": "ASP.NET",
-    "badge": "https://img.shields.io/badge/ASP.NET-5C2D91?style=flat&logo=aspdotnet&logoColor=white"
+    "badge": "https://img.shields.io/badge/ASP.NET-5C2D91?style=flat&logo=.net&logoColor=white"
   },
   "aspDotNetCore": {
     "icon": "icons/aspDotNetCore.png",
     "name": "ASP.NET Core",
-    "badge": "https://img.shields.io/badge/ASP.NET%20Core-5C2D91?style=flat&logo=aspdotnetcore&logoColor=white"
+    "badge": "https://img.shields.io/badge/ASP.NET%20Core-5C2D91?style=flat&logo=.net&logoColor=white"
   },
   "css": {
     "icon": "icons/css.png",
@@ -114,11 +114,6 @@
     "name": "DevExpress WinForm UI",
     "badge": "https://img.shields.io/badge/DevExpress%20WinForm%20UI-1E1E1E?style=flat&logo=devexpress&logoColor=white"
   },
-  "lazadaApi": {
-    "icon": "icons/lazadaApi.png",
-    "name": "Lazada API",
-    "badge": "https://img.shields.io/badge/Lazada%20API-FF0000?style=flat&logo=lazada&logoColor=white"
-  },
   "shopeeApi": {
     "icon": "icons/shopeeApi.png",
     "name": "Shopee API",
@@ -142,12 +137,12 @@
   "eGhl": {
     "icon": "icons/eGhl.png",
     "name": "eGHL Payment Gateway",
-    "badge": "https://img.shields.io/badge/eGHL%20Payment%20Gateway-00587A?style=flat&logo=egHL&logoColor=white"
+    "badge": "https://img.shields.io/badge/eGHL%20Payment%20Gateway-00587A?style=flat&logo=eghl&logoColor=white"
   },
   "apsIntegration": {
     "icon": "icons/apsIntegration.png",
     "name": "APS Integration",
-    "badge": "https://img.shields.io/badge/APS%20Integration-45A0E7?style=flat&logo=aps&logoColor=white"
+    "badge": "https://img.shields.io/badge/APS%20Integration-CC2927?style=flat&logo=aps&logoColor=white"
   },
   "figma": {
     "icon": "icons/figma.png",
@@ -187,22 +182,22 @@
   "awsRds": {
     "icon": "icons/awsRds.png",
     "name": "Amazon RDS",
-    "badge": "https://img.shields.io/badge/Amazon%20RDS-FF9900?style=flat&logo=amazondynamodb&logoColor=white"
+    "badge": "https://img.shields.io/badge/Amazon%20RDS-FF9900?style=flat&logo=amazon&logoColor=white"
   },
   "redgateToolbelt": {
     "icon": "icons/redgateToolbelt.png",
-    "name": "redgateToolbelt",
-    "badge": "https://img.shields.io/badge/redgateToolbelt-F58C4B?style=flat&logo=redgate&logoColor=white"
+    "name": "Redgate Toolbelt",
+    "badge": "https://img.shields.io/badge/Redgate_Toolbelt-F58C4B?style=flat&logo=redgate&logoColor=white"
   },
   "awsVpc": {
     "icon": "icons/awsVpc.png",
     "name": "Amazon VPC",
-    "badge": "https://img.shields.io/badge/Amazon%20VPC-FF9900?style=flat&logo=amazonaws&logoColor=white"
+    "badge": "https://img.shields.io/badge/Amazon%20VPC-FF9900?style=flat&logo=amazon&logoColor=white"
   },
   "vsAppCenter": {
     "icon": "icons/vsAppCenter.png",
     "name": "Visual Studio App Center",
-    "badge": "https://img.shields.io/badge/Visual%20Studio%20App%20Center-563D7C?style=flat&logo=visualstudioappcenter&logoColor=white"
+    "badge": "https://img.shields.io/badge/Visual%20Studio%20App%20Center-563D7C?style=flat&logo=visualstudio&logoColor=white"
   },
   "azureDevOps": {
     "icon": "icons/azureDevOps.png",
@@ -222,7 +217,7 @@
   "awsEc2": {
     "icon": "icons/awsEc2.png",
     "name": "Amazon EC2",
-    "badge": "https://img.shields.io/badge/Amazon%20EC2-FF9900?style=flat&logo=amazonec2&logoColor=white"
+    "badge": "https://img.shields.io/badge/Amazon%20EC2-FF9900?style=flat&logo=amazon&logoColor=white"
   },
   "xampp": {
     "icon": "icons/xampp.png",

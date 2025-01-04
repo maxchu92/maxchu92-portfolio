@@ -27,7 +27,6 @@ Things I code with
 ![Windows Forms](https://img.shields.io/badge/Windows%20Forms-0078D6?style=for-the-badge&logo=.net&logoColor=white)
 ![WPF](https://img.shields.io/badge/WPF-512BD4?style=for-the-badge&logo=.net)
 ![DevExpress WinForm](https://img.shields.io/badge/DevExpress_WinForm-FF6600?style=for-the-badge)
-![Lazada API](https://img.shields.io/badge/Lazada_API-FF5722?style=for-the-badge)
 ![Shopee API](https://img.shields.io/badge/Shopee_API-FF5722?style=for-the-badge)
 ![Shopify API](https://img.shields.io/badge/Shopify_API-7AB55C?style=for-the-badge&logo=shopify&logoColor=white)
 ![Google Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
