@@ -101,7 +101,7 @@ export default function ProjectsSection() {
                       fill={true}
                       src={proj.preview}
                       alt={`Preview of ${proj.name}`}
-                      className="h-full w-full rounded-md object-cover"
+                      className="h-full w-full rounded-xl object-cover"
                     />
                   </AspectRatio>
                 </div>

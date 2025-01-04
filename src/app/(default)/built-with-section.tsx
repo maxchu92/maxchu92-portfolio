@@ -46,7 +46,7 @@ export default function BuiltWithSection() {
             {builtWith.map((bw, i) => (
               <div
                 key={`bw_${i}`}
-                className="p-1"
+                className="px-1"
                 onMouseEnter={() => {
                   onMouseEnter_tech(techs[bw as TechType].name);
                 }}

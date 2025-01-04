@@ -117,7 +117,7 @@ export default function PersonalSkillsSection() {
                         className="flex flex-row gap-3 items-center"
                       >
                         <div className="rounded-full bg-primary p-2">
-                          <Star className="size-4" />
+                          <Star className="size-4 text-primary-foreground" />
                         </div>
                         {s}
                       </div>

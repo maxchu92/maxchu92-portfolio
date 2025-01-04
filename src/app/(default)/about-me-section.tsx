@@ -7,7 +7,7 @@ export default function AboutMeSection() {
       id="about-me"
       className="container mx-auto py-8 px-4 scroll-mt-[57px] md:scroll-mt-[69px]"
     >
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 animate-in fade-in slide-in-from-right duration-1000">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 animate-in fade-in slide-in-from-bottom duration-1000">
         <div className="col-span-1 lg:col-span-2">
           <div className="flex flex-col gap-4">
             <h2 className="text-4xl lg:mt-6 xl:mt-16">About Me</h2>
@@ -31,12 +31,12 @@ export default function AboutMeSection() {
           </div>
         </div>
 
-        <AspectRatio ratio={1} className="bg-muted">
+        <AspectRatio ratio={1} className="bg-muted rounded-xl">
           <Image
             fill={true}
             src="/images/profile_pic.jpg"
             alt="Profile Picture"
-            className="h-full w-full rounded-md object-cover"
+            className="rounded-xl object-cover"
           />
         </AspectRatio>
       </div>

@@ -20,7 +20,7 @@ export default function WorkExperiencesSection() {
                 classNameInView="animate-in fade-in slide-in-from-right duration-1000"
                 classNameNotInView="opacity-0"
               >
-                <Card>
+                <Card className="h-full">
                   <CardHeader>
                     <div className="flex flex-col gap-4">
                       <div className="flex gap-4 justify-between items-center">
