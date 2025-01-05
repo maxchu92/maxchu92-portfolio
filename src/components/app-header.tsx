@@ -32,8 +32,12 @@ export default function AppHeader() {
                 <NavigationMenuItem>
                   <NavigationMenuTrigger>Nagivate</NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
-                      {/* <li className="row-span-6">
+                    <ScrollArea
+                      type="always"
+                      className="max-h-[70vh] overflow-y-auto"
+                    >
+                      <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
+                        {/* <li className="row-span-6">
                         <NavigationMenuLink asChild>
                           <Link
                             className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
@@ -50,23 +54,27 @@ export default function AppHeader() {
                           </Link>
                         </NavigationMenuLink>
                       </li> */}
-                      {menus.map((menu, i) => (
-                        <ListItem
-                          key={`menu_${i}`}
-                          target={menu.target}
-                          href={menu.href}
-                          title={menu.title}
-                        >
-                          {menu.description}
-                        </ListItem>
-                      ))}
-                    </ul>
+                        {menus.map((menu, i) => (
+                          <ListItem
+                            key={`menu_${i}`}
+                            target={menu.target}
+                            href={menu.href}
+                            title={menu.title}
+                          >
+                            {menu.description}
+                          </ListItem>
+                        ))}
+                      </ul>
+                    </ScrollArea>
                   </NavigationMenuContent>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                   <NavigationMenuTrigger>Projects</NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <ScrollArea type="always" className="h-[70vh]">
+                    <ScrollArea
+                      type="always"
+                      className="max-h-[70vh] overflow-y-auto"
+                    >
                       <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
                         {projects
                           .sort((n1, n2) => +n1.yearFrom - +n2.yearFrom)

@@ -35,6 +35,20 @@
     "isVisibleInMobile": true
   },
   {
+    "title": "Awards",
+    "description": "What I've achived",
+    "href": "#awards-section",
+    "target": "",
+    "isVisibleInMobile": true
+  },
+  {
+    "title": "Activities",
+    "description": "Let's have some fun!",
+    "href": "#activities-section",
+    "target": "",
+    "isVisibleInMobile": true
+  },
+  {
     "title": "Built With",
     "description": "See the techs behind this page",
     "href": "#built-with-section",
