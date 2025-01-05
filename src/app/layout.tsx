@@ -1,6 +1,7 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { Poppins } from 'next/font/google';
+import { Analytics } from '@vercel/analytics/react';
 import MultiProvider from '@/components/multi-provider';
 //import profile from '@/data/profile.json';
 
@@ -86,6 +87,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${poppins.className} antialiased min-h-screen`}>
         <MultiProvider>{children}</MultiProvider>
+        <Analytics />
       </body>
     </html>
   );
