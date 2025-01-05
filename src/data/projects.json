@@ -77,7 +77,7 @@
   },
   {
     "key": "cos",
-    "name": "COS (Tupperware Malaysia)",
+    "name": "Tupperware Malaysia - COS",
     "description": "Campaign Order and Return Order Management Website",
     "yearFrom": "2019",
     "yearTo": "2024",
@@ -108,7 +108,7 @@
   },
   {
     "key": "wcs",
-    "name": "WCS (Tupperware Malaysia)",
+    "name": "Tupperware Malaysia - WCS",
     "description": "Warranty Claim Website and Back-office Website",
     "yearFrom": "2019",
     "yearTo": "2024",
@@ -139,7 +139,7 @@
   },
   {
     "key": "tuppPassport",
-    "name": "TuppPassport (Tupperware MY & SG)",
+    "name": "Tupperware Malaysia - TuppPassport",
     "description": "Consultant Recruit and Enrollment Portal and Management Web",
     "yearFrom": "2020",
     "yearTo": "2024",
