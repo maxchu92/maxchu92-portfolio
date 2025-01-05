@@ -1,6 +1,7 @@
 import AnimationOnScroll from '@/components/animation-on-scroll';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
+import downloads from '@/data/downloads.json';
 
 export default function DownloadsSection() {
   return (
@@ -17,11 +18,19 @@ export default function DownloadsSection() {
             <h2 className="text-gray-500 mb-1">Downloads</h2>
           </div>
           <div className="flex flex-wrap gap-4 justify-center">
-            <Button type="button" variant="outline" size="lg" asChild>
-              <Link href="/docs/maxchu92-cv-v2.0.docx" target="_blank">
-                Curriculum Vitae
-              </Link>
-            </Button>
+            {downloads.map((dl, i) => (
+              <Button
+                key={`dl_${i}`}
+                type="button"
+                variant="outline"
+                size="lg"
+                asChild
+              >
+                <Link href={dl.href} target={dl.target}>
+                  {dl.caption}
+                </Link>
+              </Button>
+            ))}
           </div>
         </div>
       </AnimationOnScroll>
