@@ -11,8 +11,8 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Max Chu - Full Stack Developer | Portfolio',
-    default: 'Max Chu - Full Stack Developer | Portfolio',
+    template: '%s | Max Chu - R&D Manager | Portfolio',
+    default: 'Max Chu - R&D Manager | Portfolio',
   },
   description:
     "Explore Max Chu's portfolio showcasing expertise in software development, React, Next.js, and innovative web solutions. Let's build something amazing!",
