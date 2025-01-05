@@ -10,29 +10,29 @@ export default function HeroSection() {
         <img
           className="xl:hidden"
           src="/images/home-bg-left.png"
-          alt="Background"
+          alt="Background Left"
         />
         <img
           className="hidden xl:block"
           src="/images/home-bg-left-x2.png"
-          alt="Background"
+          alt="Background Left"
         />
       </div>
       <div className="-z-10 hidden lg:block absolute top-[100px] right-0 animate-in fade-in slide-in-from-right duration-1000">
         <img
           className="xl:hidden"
           src="/images/home-bg-right.png"
-          alt="Background"
+          alt="Background Right"
         />
         <img
           className="hidden xl:block"
           src="/images/home-bg-right-x2.png"
-          alt="Background"
+          alt="Background Right"
         />
       </div>
       <div className="container mx-auto px-4 min-h-[700px] max-h-[700px] scroll-mt-[57px] md:scroll-mt-[69px]">
         <div className="min-h-[600px] flex flex-col justify-center items-center gap-6 text-center animate-in fade-in duration-1000">
-          <h1 className="text-4xl md:text-7xl">{profile.fullName}</h1>
+          <h1 className="text-4xl md:text-7xl">{profile.nickname}</h1>
           <p className="md:text-xl">
             {profile.position}
             {profile.company ? ` at ${profile.company}` : ''}
