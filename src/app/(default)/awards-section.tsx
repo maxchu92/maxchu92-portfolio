@@ -7,10 +7,7 @@ import Image from 'next/image';
 
 export default function AwardsSection() {
   return (
-    <div
-      id="work-experiences-section"
-      className="scroll-mt-[57px] md:scroll-mt-[69px]"
-    >
+    <div id="awards-section" className="scroll-mt-[57px] md:scroll-mt-[69px]">
       <SectionHeader title="Awards" />
       <div className="container mx-auto py-8 px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">

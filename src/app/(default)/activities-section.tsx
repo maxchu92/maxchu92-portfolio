@@ -8,7 +8,7 @@ import activities from '@/data/activities.json';
 export default function ActivitiesSection() {
   return (
     <div
-      id="work-experiences-section"
+      id="activities-section"
       className="scroll-mt-[57px] md:scroll-mt-[69px]"
     >
       <SectionHeader title="Activities" />
