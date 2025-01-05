@@ -31,16 +31,16 @@ export default function ProjectsSection() {
               <div className="py-4">
                 {/* HEADER */}
                 <div className="grid md:grid-cols-2 md:gap-8 md:items-center mb-4">
-                  <h3 className="text-5xl md:text-7xl md:text-right mb-4 md:mb-8">
+                  <p className="text-5xl md:text-7xl md:text-right mb-4 md:mb-8">
                     Project&nbsp;{(i + 1).toString().padStart(2, '0')}
-                  </h3>
+                  </p>
                   <div className="mb-4 md:mb-8">
-                    <h4 className="text-xl">
-                      <span className="mr-2 text-primary">{proj.name}</span>
+                    <div className="text-xl flex gap-2 items-center">
+                      <h3 className="text-primary">{proj.name}</h3>
                       <small>
                         {proj.yearFrom}-{proj.yearTo}
                       </small>
-                    </h4>
+                    </div>
                     <p className="text-sm">{proj.description}</p>
                   </div>
                 </div>

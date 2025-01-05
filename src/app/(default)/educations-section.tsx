@@ -47,12 +47,12 @@ export default function EducationsSection() {
                   </CardHeader>
                   <CardContent>
                     <div className="flex flex-col gap-1">
-                      <h3 className="text-2xl font-semibold">
+                      <p className="text-2xl font-semibold">
                         {education.university}
-                      </h3>
-                      <h4 className="text-primary font-semibold">
+                      </p>
+                      <h3 className="text-primary font-semibold">
                         {education.cert}
-                      </h4>
+                      </h3>
                       <p>{education.description}</p>
                     </div>
                   </CardContent>

@@ -12,7 +12,7 @@ export default function AppFooter() {
           id="contacts-section"
           className="container mx-auto p-8 text-center"
         >
-          <h2 className="text-2xl">Contact me via</h2>
+          <h2 className="text-2xl text-muted-foreground">Contact me via</h2>
           <Contacts />
         </div>
       </AnimationOnScroll>

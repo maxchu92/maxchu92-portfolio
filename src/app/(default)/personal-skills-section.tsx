@@ -30,7 +30,7 @@ export default function PersonalSkillsSection() {
         classNameNotInView="opacity-0"
       >
         <div className="container mx-auto py-8 px-4 max-w-4xl">
-          <h3 className="text-xl text-center mb-4">Languages I speak</h3>
+          <p className="text-xl text-center mb-4">Languages I speak</p>
           <div className="flex flex-wrap justify-center gap-4">
             {languages.map((la, i) => (
               <AnimationOnScroll
@@ -50,9 +50,9 @@ export default function PersonalSkillsSection() {
         classNameNotInView="opacity-0"
       >
         <div className="container mx-auto py-8 px-4 max-w-4xl">
-          <h3 className="text-xl text-center mb-4">
+          <p className="text-xl text-center mb-4">
             Roles i have been in before
-          </h3>
+          </p>
           <div className="flex flex-wrap justify-center gap-4">
             {responsibilities
               .filter((res) => experiences[res as ExperienceType].isVisible)
@@ -75,9 +75,9 @@ export default function PersonalSkillsSection() {
       >
         {/* TECH SKILLS */}
         <div className="container mx-auto py-8 px-4 max-w-5xl">
-          <h3 className="text-xl text-center mb-4">
+          <p className="text-xl text-center mb-4">
             Experience with various languages, frameworks and APIs
-          </h3>
+          </p>
           <div className="flex flex-wrap justify-center gap-4">
             {techUsed
               .sort((n1, n2) => (n1 < n2 ? -1 : 1))

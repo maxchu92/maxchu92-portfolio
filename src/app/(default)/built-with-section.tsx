@@ -35,12 +35,12 @@ export default function BuiltWithSection() {
         <div className="flex flex-col items-center">
           <div className="text-4xl text-center mb-6">
             <h2 className="text-gray-500 mb-1">Built with</h2>
-            <h2
+            <p
               key={animateKey}
               className="animate-in fade-in slide-in-from-bottom duration-1000"
             >
               {tech}
-            </h2>
+            </p>
           </div>
           <div className="flex flex-wrap justify-center text-foreground">
             {builtWith.map((bw, i) => (
