@@ -24,9 +24,9 @@ export default function AppHeader() {
       <div className="fixed top-0 border-b bg-background w-screen z-50 pr-4">
         <div className="container mx-auto p-4 flex justify-between items-center">
           <div className="flex items-center gap-4">
-            <h2 className="animate-in fade-in slide-in-from-left duration-1000">
+            <span className="animate-in fade-in slide-in-from-left duration-1000">
               <Link href="/">maxchu92 | portfolio</Link>
-            </h2>
+            </span>
             <NavigationMenu className="hidden md:block">
               <NavigationMenuList>
                 <NavigationMenuItem>
