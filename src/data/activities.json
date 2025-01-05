@@ -1,33 +1,26 @@
 [
   {
-    "event": "Charity Climb for MAA Medicare Celebrate Life 2",
-    "year": "2013",
+    "event": "Certified Top Rope Climber",
+    "year": "2023",
     "position": "Volunteer",
-    "description": ""
+    "description": "Certified by CAMP5"
   },
-
   {
-    "event": "Logo and poster design of MAA Medicare Celebrate Life 2",
+    "event": "Charity Climb - Celebrate Life 2",
     "year": "2013",
     "position": "Volunteer",
-    "description": ""
+    "description": "Held by MAA Medicare - Kidney Charity Fund"
+  },
+  {
+    "event": "Logo and poster design - Celebrate Life 2",
+    "year": "2013",
+    "position": "Volunteer",
+    "description": "Held by MAA Medicare - Kidney Charity Fund"
   },
   {
     "event": "QR Code Challenge APU",
     "year": "2013",
     "position": "Participant",
-    "description": ""
-  },
-  {
-    "event": "iHack Competition 2013 UiTM",
-    "year": "2013",
-    "position": "Participant",
-    "description": ""
-  },
-  {
-    "event": "Do the Dew Challenge 2012",
-    "year": "2012",
-    "position": "Participant",
-    "description": ""
+    "description": "Held by Asia Pacific University"
   }
 ]

@@ -1,6 +1,6 @@
 [
   {
-    "event": "Makeweekend Robotic Hackaton",
+    "event": "Makeweekend Robotic Hackaton, by Tandemic",
     "year": "2013",
     "position": "Winner",
     "description": "As a team, we built an amphibian robot that can runs on both land and water, while avoiding obstacles."
@@ -11,5 +11,17 @@
     "year": "2009",
     "position": "1st Place",
     "description": "Despite we are still in our highshool, we won the quiz challenge held by Universiti Tun Hussein Onn Malaysia as a team."
+  },
+  {
+    "event": "Inter-Varcity iHack 2013 Competition, UiTM",
+    "year": "2013",
+    "position": "4th Place",
+    "description": "Jeopardy format CTF hackathon. Using our wit to solve cryptography, reverse engineering, web exploitation, forensics, and binary exploitation challenges."
+  },
+  {
+    "event": "Dew Challenge 2012: The Xtreme Ride, by Mountain Dew",
+    "year": "2012",
+    "position": "4th Place",
+    "description": "Climbing up mountains, down onto the water, one-person phyical challenges around Kuala Lumpur in a single day."
   }
 ]
