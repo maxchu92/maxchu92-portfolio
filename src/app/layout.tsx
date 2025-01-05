@@ -17,13 +17,34 @@ export const metadata: Metadata = {
   description:
     "Explore Max Chu's portfolio showcasing expertise in software development, React, Next.js, and innovative web solutions. Let's build something amazing!",
   keywords: [
-    'Max Chu',
-    'Lead developer',
+    'Max',
+    'Chu',
+    'Research',
+    'Development',
+    'web',
+    'front-end',
+    'Lead',
+    'full-stack',
+    'Developer',
+    'software',
+    'mobile',
+    'app',
+    'website',
     'portfolio',
     'React.js',
     'Next.js',
-    'web development',
-    'front-end developer',
+    'dart',
+    'flutter',
+    'javascript',
+    'css',
+    'tailwind',
+    'bootstrap',
+    'asp',
+    '.net',
+    'C#',
+    'vb',
+    'winform',
+    'wpf',
     'web solutions',
   ],
   authors: [{ name: 'Max Chu' }],
@@ -40,30 +61,19 @@ export const metadata: Metadata = {
     { media: '(prefers-color-scheme: light)', color: '#ffffff' },
   ],
   openGraph: {
-    title: `${profile.fullName} - ${profile.position} Portfolio`,
+    title: `Max Chu - R&D Manager | Portfolio`,
     description:
-      "Dive into Max Chu's world of web development, featuring cutting-edge projects in React, Next.js, and more.",
-    url: 'https://maxchu92-portfolio.vercel.app/', // Replace with your domain
+      "Dive into Max Chu's world of web development, featuring cutting-edge projects in React, Next.js, Flutter, and more.",
+    url: 'https://maxchu92-portfolio.vercel.app/',
     siteName: 'Max Chu Portfolio',
-    images: [
-      {
-        url: 'https://maxchu92-portfolio.vercel.app/og-image.jpg', // Replace with your OG image URL
-        width: 1200,
-        height: 630,
-        alt: 'Max Chu Portfolio Cover Image',
-      },
-    ],
     locale: 'en_US',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Max Chu - Lead Developer Portfolio',
+    title: `Max Chu - R&D Manager | Portfolio`,
     description:
       "Check out Max Chu's portfolio for impressive web development projects in React and Next.js.",
-    images: [
-      'https://your-portfolio-url.com/twitter-image.jpg', // Replace with your Twitter image URL
-    ],
   },
 };
 
