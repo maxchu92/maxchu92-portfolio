@@ -6,12 +6,6 @@
     "url": "https://discordapp.com/users/193770194009718786"
   },
   {
-    "key": "whatsapp",
-    "description": "WhatsApp",
-    "icon": "/icons/whatsapp.svg",
-    "url": "https://wa.me/60127835998"
-  },
-  {
     "key": "facebook",
     "description": "Facebook",
     "icon": "/icons/facebook.svg",
@@ -24,6 +18,12 @@
     "url": "https://instagram.com/maxchu92"
   },
   {
+    "key": "whatsapp",
+    "description": "WhatsApp",
+    "icon": "/icons/whatsapp.svg",
+    "url": "https://wa.me/60127835998"
+  },
+  {
     "key": "linkedin",
     "description": "Linkedin",
     "icon": "/icons/linkedin.svg",
@@ -34,5 +34,17 @@
     "description": "Github",
     "icon": "/icons/github.svg",
     "url": "https://github.com/maxchu92/"
+  },
+  {
+    "key": "phone",
+    "description": "Phone",
+    "icon": "/icons/phone.svg",
+    "url": "tel:+60127835998"
+  },
+  {
+    "key": "email",
+    "description": "Email",
+    "icon": "/icons/mail.svg",
+    "url": "mailto:maxchu92@hotmail.com"
   }
 ]

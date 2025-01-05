@@ -22,7 +22,10 @@ export default function AppDrawer(props: { className?: string }) {
   return (
     <div className={props.className}>
       <Drawer>
-        <DrawerTrigger asChild>
+        <DrawerTrigger
+          className="animate-in fade-in slide-in-from-right duration-1000"
+          asChild
+        >
           <Menu />
         </DrawerTrigger>
         <DrawerContent>
