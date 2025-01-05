@@ -2,7 +2,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Poppins } from 'next/font/google';
 import MultiProvider from '@/components/multi-provider';
-import profile from '@/data/profile.json';
+//import profile from '@/data/profile.json';
 
 const poppins = Poppins({
   subsets: ['latin'],
