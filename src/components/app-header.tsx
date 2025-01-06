@@ -27,7 +27,7 @@ export default function AppHeader() {
             <span className="animate-in fade-in slide-in-from-left duration-1000">
               <Link href="/">maxchu92 | portfolio</Link>
             </span>
-            <NavigationMenu className="hidden md:block">
+            <NavigationMenu className="hidden md:block animate-in fade-in slide-in-from-left duration-1000">
               <NavigationMenuList>
                 <NavigationMenuItem>
                   <NavigationMenuTrigger>Nagivate</NavigationMenuTrigger>
@@ -36,7 +36,7 @@ export default function AppHeader() {
                       type="always"
                       className="max-h-[70vh] overflow-y-auto"
                     >
-                      <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
+                      <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[1fr_1fr]">
                         {/* <li className="row-span-6">
                         <NavigationMenuLink asChild>
                           <Link
@@ -132,7 +132,7 @@ export default function AppHeader() {
                 />
               </Link>
             </Button> */}
-            <ThemeModeMenu />
+            <ThemeModeMenu className="animate-in fade-in slide-in-from-right duration-1000" />
           </div>
         </div>
       </div>
