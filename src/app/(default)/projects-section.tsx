@@ -8,6 +8,7 @@ import { AspectRatio } from '@radix-ui/react-aspect-ratio';
 import Image from 'next/image';
 import clsx from 'clsx';
 import AnimationOnScroll from '../../components/animation-on-scroll';
+import Link from 'next/link';
 
 type ExperienceType = keyof typeof experiences;
 type TechType = keyof typeof techs;
@@ -86,6 +87,51 @@ export default function ProjectsSection() {
                             badge={techs[tu as TechType].badge}
                           />
                         ))}
+                      </div>
+                    </div>
+                    <div>
+                      <div
+                        className={clsx(
+                          'flex flex-wrap gap-2 mb-4',
+                          i % 2 === 1 ? '' : 'lg:justify-end'
+                        )}
+                      >
+                        {proj.iOSAppStoreUrl !== '' ? (
+                          <Link target="_blank" href={proj.iOSAppStoreUrl}>
+                            <Image
+                              height={45}
+                              width={150}
+                              src="/badges/badge_appstore.svg"
+                              alt="Download on the App Store"
+                            />
+                          </Link>
+                        ) : (
+                          <></>
+                        )}
+                        {proj.androidPlayStoreUrl !== '' ? (
+                          <Link target="_blank" href={proj.androidPlayStoreUrl}>
+                            <Image
+                              height={45}
+                              width={169}
+                              src="/badges/badge_playstore.svg"
+                              alt="Get it on Google Play"
+                            />
+                          </Link>
+                        ) : (
+                          <></>
+                        )}
+                        {false ? (
+                          <Link target="_blank" href={proj.androidPlayStoreUrl}>
+                            <Image
+                              height={45}
+                              width={150}
+                              src="/buttons/download_appgallery.png"
+                              alt="Explore it on AppGallery"
+                            />
+                          </Link>
+                        ) : (
+                          <></>
+                        )}
                       </div>
                     </div>
                   </div>

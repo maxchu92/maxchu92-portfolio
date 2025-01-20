@@ -6,6 +6,8 @@
     "yearFrom": "2014",
     "yearTo": "2024",
     "preview": "/images/projects/aps.png",
+    "iOSAppStoreUrl": "",
+    "androidPlayStoreUrl": "",
     "responsibilities": [
       "projectAnalysisAndDesign",
       "projectManagement",
@@ -32,6 +34,8 @@
     "yearFrom": "2014",
     "yearTo": "2016",
     "preview": "/images/projects/eys.png",
+    "iOSAppStoreUrl": "",
+    "androidPlayStoreUrl": "",
     "responsibilities": ["frontEndDev", "backEndDev"],
     "techUsed": [
       "vbDotNet",
@@ -51,6 +55,8 @@
     "yearFrom": "2016",
     "yearTo": "2018",
     "preview": "/images/projects/travel.png",
+    "iOSAppStoreUrl": "",
+    "androidPlayStoreUrl": "",
     "responsibilities": [
       "projectAnalysisAndDesign",
       "projectManagement",
@@ -82,6 +88,8 @@
     "yearFrom": "2019",
     "yearTo": "2024",
     "preview": "/images/projects/cos.png",
+    "iOSAppStoreUrl": "",
+    "androidPlayStoreUrl": "",
     "responsibilities": [
       "projectAnalysisAndDesign",
       "projectManagement",
@@ -113,6 +121,8 @@
     "yearFrom": "2019",
     "yearTo": "2024",
     "preview": "/images/projects/wcs.png",
+    "iOSAppStoreUrl": "",
+    "androidPlayStoreUrl": "",
     "responsibilities": [
       "projectAnalysisAndDesign",
       "projectManagement",
@@ -144,6 +154,8 @@
     "yearFrom": "2020",
     "yearTo": "2024",
     "preview": "/images/projects/tuppPassport.png",
+    "iOSAppStoreUrl": "",
+    "androidPlayStoreUrl": "",
     "responsibilities": [
       "projectAnalysisAndDesign",
       "projectManagement",
@@ -176,6 +188,8 @@
     "yearFrom": "2015",
     "yearTo": "2024",
     "preview": "/images/projects/apsEnterprise.png",
+    "iOSAppStoreUrl": "https://apps.apple.com/my/app/aps-enterprise/id1587332088",
+    "androidPlayStoreUrl": "https://play.google.com/store/apps/details?id=com.meteorsoft.APSEnterprise",
     "responsibilities": [
       "projectAnalysisAndDesign",
       "projectManagement",
@@ -207,6 +221,8 @@
     "yearFrom": "2017",
     "yearTo": "2018",
     "preview": "/images/projects/meteorNet.png",
+    "iOSAppStoreUrl": "",
+    "androidPlayStoreUrl": "",
     "responsibilities": [
       "projectAnalysisAndDesign",
       "projectManagement",
@@ -238,6 +254,8 @@
     "yearFrom": "2018",
     "yearTo": "2023",
     "preview": "/images/projects/awh.png",
+    "iOSAppStoreUrl": "",
+    "androidPlayStoreUrl": "",
     "responsibilities": [
       "projectAnalysisAndDesign",
       "projectManagement",
@@ -266,6 +284,8 @@
     "yearFrom": "2019",
     "yearTo": "2024",
     "preview": "/images/projects/meteorScheduler.png",
+    "iOSAppStoreUrl": "",
+    "androidPlayStoreUrl": "",
     "responsibilities": [
       "uiUxDesign",
       "frontEndDev",
@@ -281,6 +301,8 @@
     "yearFrom": "2020",
     "yearTo": "2024",
     "preview": "/images/projects/apsDispatch.png",
+    "iOSAppStoreUrl": "https://apps.apple.com/my/app/aps-dispatch/id1623748211",
+    "androidPlayStoreUrl": "https://play.google.com/store/apps/details?id=com.meteorsoft.DispatchApp",
     "responsibilities": [
       "projectAnalysisAndDesign",
       "frontEndDev",
@@ -309,6 +331,8 @@
     "yearFrom": "2021",
     "yearTo": "2022",
     "preview": "/images/projects/apsPos.png",
+    "iOSAppStoreUrl": "",
+    "androidPlayStoreUrl": "",
     "responsibilities": [
       "projectAnalysisAndDesign",
       "projectManagement",
@@ -323,6 +347,8 @@
     "yearFrom": "2022",
     "yearTo": "2023",
     "preview": "/images/projects/apsCashRegister.png",
+    "iOSAppStoreUrl": "",
+    "androidPlayStoreUrl": "",
     "responsibilities": [
       "projectAnalysisAndDesign",
       "projectManagement",
@@ -337,6 +363,8 @@
     "yearFrom": "2022",
     "yearTo": "2023",
     "preview": "/images/projects/lalapartsMarketplace.png",
+    "iOSAppStoreUrl": "",
+    "androidPlayStoreUrl": "",
     "responsibilities": [
       "projectAnalysisAndDesign",
       "projectManagement",
@@ -365,6 +393,8 @@
     "yearFrom": "2022",
     "yearTo": "2023",
     "preview": "/images/projects/lalapartsSellerApp.png",
+    "iOSAppStoreUrl": "",
+    "androidPlayStoreUrl": "",
     "responsibilities": [
       "projectAnalysisAndDesign",
       "projectManagement",
@@ -394,6 +424,8 @@
     "yearFrom": "2021",
     "yearTo": "2022",
     "preview": "/images/projects/slom.png",
+    "iOSAppStoreUrl": "https://apps.apple.com/my/app/slom-seng-li/id1585622207",
+    "androidPlayStoreUrl": "https://play.google.com/store/apps/details?id=com.meteorsoft.slomsengli",
     "responsibilities": [
       "projectAnalysisAndDesign",
       "projectManagement",
@@ -423,6 +455,8 @@
     "yearFrom": "2022",
     "yearTo": "2023",
     "preview": "/images/projects/sengLiEShop.png",
+    "iOSAppStoreUrl": "https://apps.apple.com/my/app/my-sengli/id6447298096",
+    "androidPlayStoreUrl": "https://play.google.com/store/apps/details?id=com.meteorsoft.sleshopapp",
     "responsibilities": [
       "projectAnalysisAndDesign",
       "projectManagement",
@@ -451,6 +485,8 @@
     "yearFrom": "2023",
     "yearTo": "2024",
     "preview": "/images/projects/raigoEShop.png",
+    "iOSAppStoreUrl": "",
+    "androidPlayStoreUrl": "",
     "responsibilities": [
       "projectAnalysisAndDesign",
       "projectManagement",
@@ -480,6 +516,8 @@
     "yearFrom": "2024",
     "yearTo": "2025",
     "preview": "/images/projects/meteorB2B.png",
+    "iOSAppStoreUrl": "",
+    "androidPlayStoreUrl": "",
     "responsibilities": [
       "projectAnalysisAndDesign",
       "uiUxDesign",
@@ -505,6 +543,8 @@
     "yearFrom": "2024",
     "yearTo": "2025",
     "preview": "/images/projects/sengLiNet.png",
+    "iOSAppStoreUrl": "",
+    "androidPlayStoreUrl": "",
     "responsibilities": [
       "projectAnalysisAndDesign",
       "uiUxDesign",
@@ -531,6 +571,8 @@
     "yearFrom": "2015",
     "yearTo": "2022",
     "preview": "/images/projects/sp2u.png",
+    "iOSAppStoreUrl": "",
+    "androidPlayStoreUrl": "",
     "responsibilities": [
       "projectAnalysisAndDesign",
       "uiUxDesign",
@@ -560,6 +602,8 @@
     "yearFrom": "2023",
     "yearTo": "2024",
     "preview": "/images/projects/apsWarehouseKiosk.png",
+    "iOSAppStoreUrl": "",
+    "androidPlayStoreUrl": "",
     "responsibilities": ["uiUxDesign"],
     "techUsed": ["adobeXd"]
   }
