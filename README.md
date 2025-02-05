@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Max Chu!
 
-I'm a passionate **Head of Research and Development** from Kuala Lumpur, Malaysia, dedicated to exploring innovative solutions and driving technological advancements. I specialize in:
+I'm a passionate **Head of Technology** from Kuala Lumpur, Malaysia, dedicated to exploring innovative solutions and driving technological advancements. I specialize in:
 
 Things I code with
 
