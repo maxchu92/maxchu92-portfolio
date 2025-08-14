@@ -1,9 +1,9 @@
-import AnimationOnScroll from '@/components/animation-on-scroll';
-import SectionHeader from '@/components/section-header';
-import { AspectRatio } from '@/components/ui/aspect-ratio';
-import { Card, CardContent, CardHeader } from '@/components/ui/card';
-import awards from '@/data/awards.json';
-import Image from 'next/image';
+import AnimationOnScroll from "@/components/animation-on-scroll";
+import SectionHeader from "@/components/section-header";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import awards from "@/data/awards.json";
+import Image from "next/image";
 
 export default function AwardsSection() {
   return (
@@ -11,11 +11,11 @@ export default function AwardsSection() {
       <SectionHeader title="Awards" />
       <div className="container mx-auto py-8 px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
-          <AspectRatio ratio={1}>
-            <AnimationOnScroll
-              classNameInView="animate-in fade-in slide-in-from-right duration-1000 h-full w-full"
-              classNameNotInView="opacity-0"
-            >
+          <AnimationOnScroll
+            classNameInView="animate-in fade-in slide-in-from-right duration-1000"
+            classNameNotInView="opacity-0"
+          >
+            <AspectRatio ratio={1}>
               <div className="bg-muted rounded-xl">
                 <Image
                   fill={true}
@@ -24,14 +24,14 @@ export default function AwardsSection() {
                   className="rounded-xl object-cover"
                 />
               </div>
-            </AnimationOnScroll>
-          </AspectRatio>
+            </AspectRatio>
+          </AnimationOnScroll>
           {awards
             .sort((n1, n2) => +n2.year - +n1.year)
             .map((we, i) => (
               <AnimationOnScroll
                 key={`aw_${i}`}
-                classNameInView="animate-in fade-in slide-in-from-right duration-1000"
+                classNameInView={`animate-in fade-in slide-in-from-right duration-1000`}
                 classNameNotInView="opacity-0"
               >
                 <Card className="h-full">

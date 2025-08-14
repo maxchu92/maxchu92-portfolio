@@ -17,7 +17,7 @@ export default function AboutMeSection() {
             </p>
             {/* <p>
             My journey in the tech industry has seen me grow from a junior
-            developer to the head of a R&D department. My diverse skill set and
+            developer to the head of a department. My diverse skill set and
             leadership experience allow me to tackle complex projects and guide
             teams toward success. I thrive in dynamic environments where I can
             continuously learn and apply new technologies to create impactful

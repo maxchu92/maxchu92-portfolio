@@ -1,7 +1,9 @@
-import AnimationOnScroll from '@/components/animation-on-scroll';
-import SectionHeader from '@/components/section-header';
-import { Card, CardContent, CardHeader } from '@/components/ui/card';
-import workExperiences from '@/data/work-experiences.json';
+import AnimationOnScroll from "@/components/animation-on-scroll";
+import SectionHeader from "@/components/section-header";
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
+import Image from "next/image";
+import workExperiences from "@/data/work-experiences.json";
 
 export default function WorkExperiencesSection() {
   return (
@@ -12,6 +14,39 @@ export default function WorkExperiencesSection() {
       <SectionHeader title="Work Experiences" />
       <div className="container mx-auto py-8 px-4">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+              <AnimationOnScroll
+                  classNameInView="col-span-1 lg:col-span-2 animate-in fade-in slide-in-from-right duration-1000"
+                  classNameNotInView="opacity-0"
+                >
+              
+                  <div className="bg-muted rounded-xl h-full flex items-center">
+                    <AspectRatio ratio={16 / 9}>
+                    <Image
+                      fill={true}
+                      src="/images/work-experiences/fhe-tech-team.jpg"
+                      alt="FatHopes Energy Tech Team"
+                      className="rounded-xl lg:rounded-none xl:rounded-xl object-cover"
+                    />
+              </AspectRatio>
+                  </div>
+                </AnimationOnScroll>
+
+            {/*
+            <AnimationOnScroll
+              classNameInView="animate-in fade-in slide-in-from-right duration-1000"
+              classNameNotInView="opacity-0"
+            >
+              <div className="bg-muted rounded-xl">
+                <Image
+                  fill={true}
+                  src="/images/work-experiences/fhe-tech-team.jpg"
+                  alt="FatHopes Energy Tech Team"
+                  className="rounded-xl object-cover"
+                />
+              </div>
+            </AnimationOnScroll>
+            */}
+
           {workExperiences
             .sort((n1, n2) => +n2.yearTo - +n1.yearTo)
             .map((we, i) => (

@@ -43,6 +43,10 @@
     "name": "Database Management",
     "isVisible": true
   },
+  "qualityAssurance": {
+    "name": "Quality Assurance",
+    "isVisible": true
+  },
   "techCoaching": {
     "name": "Tech Coaching",
     "isVisible": true
