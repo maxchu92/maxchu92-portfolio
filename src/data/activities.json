@@ -1,14 +1,25 @@
-[
+[  {
+    "event": "Power BI Mastery: Essential Skills for Modern Data Analytics",
+    "year": "2025",
+    "position": "Certified",
+    "description": "Provided by academist, Norhayati Isa. Training includes data preparation, modeling, visualization, and sharing insights using Power BI."
+  },
+  {
+    "event": "Datacentre & Cloud Infrastructure Summit - Malaysia",
+    "year": "2025",
+    "position": "Participated",
+    "description": "Held by TradePass, an annual conference focused on the datacentre and cloud computing industry."
+  },
   {
     "event": "ISCC EU/CORSIA Compliance Training",
     "year": "2025",
-    "position": "Completed",
+    "position": "Certified",
     "description": "Provided by Eastern Sun Resources. Training includes management system, traceability, sustainability documents, chain of custody, mass balance, and GHG /LCA."
   },
   {
     "event": "Certified Top Rope Climber",
     "year": "2023",
-    "position": "Completed",
+    "position": "Certified",
     "description": "Certified by CAMP5 to perform top-rope climbing and provide belay under own supervision."
   },
   {
