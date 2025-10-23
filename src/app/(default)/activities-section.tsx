@@ -13,7 +13,7 @@ export default function ActivitiesSection() {
     >
       <SectionHeader title="Activities" />
       <div className="container mx-auto py-8 px-4">
-        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
           {activities
             .sort((n1, n2) => +n2.year - +n1.year)
             .map((act, i) => (
