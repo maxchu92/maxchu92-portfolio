@@ -208,7 +208,8 @@
     ],
     "techUsed": [
       "cSharp",
-      "xamarin",
+      "xamarinForms",
+      "prismLibrary",
       "telerikUi",
       "sqLite",
       "aspDotNetCore",
@@ -277,6 +278,7 @@
     "techUsed": [
       "cSharp",
       "dotNetMaui",
+      "prismLibrary",
       "aspDotNetCore",
       "msSqlServer",
       "redgateToolbelt",
@@ -324,6 +326,7 @@
     "techUsed": [
       "cSharp",
       "dotNetMaui",
+      "prismLibrary",
       "sqLite",
       "aspDotNetCore",
       "msSqlServer",
@@ -388,6 +391,7 @@
     "techUsed": [
       "cSharp",
       "dotNetMaui",
+      "prismLibrary",
       "sqLite",
       "aspDotNetCore",
       "msSqlServer",
@@ -420,6 +424,7 @@
     "techUsed": [
       "cSharp",
       "dotNetMaui",
+      "prismLibrary",
       "sqLite",
       "aspDotNetCore",
       "msSqlServer",
@@ -452,6 +457,7 @@
     "techUsed": [
       "cSharp",
       "dotNetMaui",
+      "prismLibrary",
       "sqLite",
       "aspDotNetCore",
       "msSqlServer",
@@ -484,6 +490,7 @@
     "techUsed": [
       "cSharp",
       "dotNetMaui",
+      "prismLibrary",
       "aspDotNetCore",
       "msSqlServer",
       "redgateToolbelt",

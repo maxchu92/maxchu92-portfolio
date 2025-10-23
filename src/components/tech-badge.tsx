@@ -15,7 +15,7 @@ const TechBadge: React.FC<TechBadgeProps> = ({
   badge,
   //...rest
 }) => {
-  return <img src={badge!} alt={`Badge of ${name}`} />;
+  return <img src={badge!} alt={`Badge of ${name}`} title={name} />;
   /* return (
     <div
       className={clsx(
