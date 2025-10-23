@@ -12,8 +12,8 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Max Chu - Head of Technology | Portfolio',
-    default: 'Max Chu - Head of Technology | Portfolio',
+    template: '%s | Max Chu - CTO @ FatHopes Energy | Portfolio',
+    default: 'Max Chu - CTO @ FatHopes Energy | Portfolio',
   },
   description:
     "Explore Max Chu's portfolio showcasing expertise in software development, React, Next.js, and innovative web solutions. Let's build something amazing!",
@@ -25,7 +25,9 @@ export const metadata: Metadata = {
     'Development',
     'Technology',
     'Manager',
-    'Head',
+    'CTO',
+    'chief',
+    'officer',
     'web',
     'front-end',
     'Lead',
@@ -66,7 +68,7 @@ export const metadata: Metadata = {
     { media: '(prefers-color-scheme: light)', color: '#ffffff' },
   ],
   openGraph: {
-    title: `Max Chu - Head of Technology | Portfolio`,
+    title: `Max Chu - CTO @ FatHopes Energy | Portfolio`,
     description:
       "Dive into Max Chu's world of web development, featuring cutting-edge projects in React, Next.js, Flutter, and more.",
     url: 'https://maxchu92-portfolio.vercel.app/',
@@ -76,7 +78,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: `Max Chu - Head of Technology | Portfolio`,
+    title: `Max Chu - CTO @ FatHopes Energy | Portfolio`,
     description:
       "Check out Max Chu's portfolio for impressive web development projects in React and Next.js.",
   },

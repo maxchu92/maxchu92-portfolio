@@ -10,12 +10,12 @@ export default function AwardsSection() {
     <div id="awards-section" className="scroll-mt-[57px] md:scroll-mt-[69px]">
       <SectionHeader title="Awards" />
       <div className="container mx-auto py-8 px-4">
-        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-8">
-          {/* <AspectRatio ratio={1}>
-            <AnimationOnScroll
-              classNameInView="animate-in fade-in slide-in-from-right duration-1000 h-full w-full"
-              classNameNotInView="opacity-0"
-            >
+        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
+          <AnimationOnScroll
+            classNameInView="animate-in fade-in slide-in-from-right duration-1000"
+            classNameNotInView="opacity-0"
+          >
+            <AspectRatio ratio={1}>
               <div className="bg-muted rounded-xl">
                 <Image
                   fill={true}
@@ -24,14 +24,14 @@ export default function AwardsSection() {
                   className="rounded-xl object-cover"
                 />
               </div>
-            </AnimationOnScroll>
-          </AspectRatio> */}
+            </AspectRatio>
+          </AnimationOnScroll>
           {awards
             .sort((n1, n2) => +n2.year - +n1.year)
             .map((aw, i) => (
               <AnimationOnScroll
                 key={`aw_${i}`}
-                classNameInView="animate-in fade-in slide-in-from-right duration-1000"
+                classNameInView={`animate-in fade-in slide-in-from-right duration-1000`}
                 classNameNotInView="opacity-0"
               >
                 <Card className="h-full flex flex-col">
