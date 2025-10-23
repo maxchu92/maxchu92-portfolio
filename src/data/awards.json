@@ -1,16 +1,18 @@
 [
   {
-    "event": "Makeweekend Robotic Hackaton, by Tandemic",
+    "event": "Makeweekend Robotic Hackaton - Tandemic",
     "year": "2013",
     "position": "Winner",
-    "description": "As a team, we built an amphibian robot that can runs on both land and water, while avoiding obstacles."
+    "description": "As a team, we built an amphibian robot that can runs on both land and water, while avoiding obstacles.",
+    "image_url": "/images/awards/makeweekend-robot.jpg"
   },
 
   {
-    "event": "Pertandingan Kuiz ICT, UTHM",
+    "event": "Pertandingan Kuiz ICT, Universiti Tun Hussein Onn Malaysia",
     "year": "2009",
     "position": "1st Place",
-    "description": "Despite we are still in our highshool, we won the quiz challenge held by Universiti Tun Hussein Onn Malaysia as a team."
+    "description": "Despite we are still in our highshool, we won the quiz challenge held by Universiti Tun Hussein Onn Malaysia as a team.",
+    "image_url": "/images/awards/uthm-kuiz-ict-2009.jpg"
   },
   {
     "event": "Inter-Varcity iHack 2013 Competition, UiTM",
@@ -19,9 +21,10 @@
     "description": "Jeopardy format CTF hackathon. Using our wit to solve cryptography, reverse engineering, web exploitation, forensics, and binary exploitation challenges."
   },
   {
-    "event": "Dew Challenge 2012: The Xtreme Ride, by Mountain Dew",
+    "event": "Dew Challenge: The Xtreme Ride, by Mountain Dew",
     "year": "2012",
     "position": "4th Place",
-    "description": "Climbing up mountains, down onto the water, one-person phyical challenges around Kuala Lumpur in a single day."
+    "description": "Up onto the Batu Cave, down onto the river in Putrajaya, physical challenges around Klang Valley in a single day.",
+    "image_url": "/images/awards/dew-challenge-2012.jpg"
   }
 ]

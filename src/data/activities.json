@@ -1,26 +1,29 @@
 [
   {
-    "event": "Certified Top Rope Climber",
+    "event": "Certified Top Rope Climber & Belayer - CAMP5",
     "year": "2023",
     "position": "Completed",
-    "description": "Certified by CAMP5"
+    "description": "Successfully completed CAMP5 Basic Wall Course, demonstrating proficiency in knot tying, safety checks, rope management, and belay techniques according to international climbing safety standards.",
+    "image_url": "/images/activities/top-rope-2023.jpg"
   },
   {
-    "event": "Charity Climb - Celebrate Life 2",
+    "event": "Celebrate Life 2 Charity Climb - MAA Medicare",
     "year": "2013",
     "position": "Volunteered",
-    "description": "Held by MAA Medicare - Kidney Charity Fund"
+    "description": "Participated in Celebrate Life 2, a charity climb by MAA Medicare at Broga Hill, raising awareness and funds to support cancer patients and promote healthy living through outdoor activities.",
+    "image_url": "/images/activities/charity-climb-2013.jpg"
   },
   {
-    "event": "Logo and poster design - Celebrate Life 2",
+    "event": "Logo, poster and T-shirt design - Celebrate Life 2",
     "year": "2013",
     "position": "Volunteered",
-    "description": "Held by MAA Medicare - Kidney Charity Fund"
+    "description": "Designed the official logo, event poster, and T-shirt for Celebrate Life 2, organized by MAA Medicare, creating a cohesive visual identity that reflected the event’s spirit of hope and community.",
+    "image_url": "/images/activities/celebrate-life-design-2013.jpg"
   },
   {
-    "event": "QR Code Challenge APU",
+    "event": "QR Code Challenge - Asia Pacific University",
     "year": "2013",
     "position": "Participated",
-    "description": "Held by Asia Pacific University"
+    "description": "Participated in QR Code Challenge 2013 at Asia Pacific University (APU), developing creative solutions using QR code technology."
   }
 ]
