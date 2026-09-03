@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Max Chu!
 
-I'm a passionate **leader** from Kuala Lumpur, Malaysia, dedicated to exploring innovative solutions and driving technological advancements. I specialize in:
+I'm a passionate **leader** from Kuala Lumpur, Malaysia, dedicated to exploring innovative solutions and driving technological advancements. This website was coded without the AI or vibe-coding.
 
 Things I code with
 
@@ -55,10 +55,6 @@ Things I code with
 - 📊 **Project Management**: Leading R&D initiatives and mentoring teams to deliver impactful projects.
 - 🔬 **Technical Expertise**: Experience in Flutter, Dart, C#, VB.NET, .NET MAUI, DevExpress, and database management with MSSQL.
 - 🌐 **Web Services & APIs**: Hands-on with HMAC signature-based authorization and secure web integrations.
-
-## 📈 Projects I'm Working On
-
-- 🌟 **MeteorB2B**: A B2B platform for automobile spare parts with credit storage, bulk purchasing benefits, and campaign management.
 
 ## 📫 Let's Connect!
 
