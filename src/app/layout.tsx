@@ -1,14 +1,20 @@
 import './globals.css';
-import type { Metadata } from 'next';
-import { Poppins } from 'next/font/google';
+import type { Metadata, Viewport } from 'next';
+import { Archivo } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
-import MultiProvider from '@/components/multi-provider';
-//import profile from '@/data/profile.json';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
-const poppins = Poppins({
+const archivo = Archivo({
   subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
+  variable: '--font-archivo',
+  display: 'swap',
 });
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  themeColor: '#0d0d0c',
+};
 
 export const metadata: Metadata = {
   title: {
@@ -55,18 +61,10 @@ export const metadata: Metadata = {
     'web solutions',
   ],
   authors: [{ name: 'Max Chu' }],
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-  },
   robots: {
     index: true,
     follow: true,
   },
-  themeColor: [
-    { media: '(prefers-color-scheme: dark)', color: '#000000' },
-    { media: '(prefers-color-scheme: light)', color: '#ffffff' },
-  ],
   openGraph: {
     title: `Max Chu - CTO @ FatHopes Energy | Portfolio`,
     description:
@@ -90,10 +88,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={`${poppins.className} antialiased min-h-screen`}>
-        <MultiProvider>{children}</MultiProvider>
+    <html lang="en" className={archivo.variable}>
+      <body className="font-sans antialiased min-h-screen">
+        {children}
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

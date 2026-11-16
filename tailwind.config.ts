@@ -10,7 +10,13 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['var(--font-archivo)', 'Helvetica Neue', 'Arial', 'sans-serif'],
+      },
       colors: {
+        ink: { DEFAULT: '#0d0d0c', 2: '#1a1a18', line: '#2a2a27' },
+        paper: { DEFAULT: '#e9e6df', 2: '#dedad1', line: '#c9c5bb' },
+        flame: { DEFAULT: '#f2601c', soft: '#ff8a4c' },
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
         card: {
